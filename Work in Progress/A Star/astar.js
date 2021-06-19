@@ -1,6 +1,6 @@
 canvas_height = window.innerHeight;
 canvas_width = window.innerWidth;
-resolution = 200;
+resolution = 150;
 canvas_height -= canvas_height % resolution;
 canvas_width -= canvas_width % resolution;
 
@@ -49,7 +49,11 @@ let start_pos = [0, 0];
 let end_pos = [l - 1, m - 1];
 
 function setup() {
-  createCanvas(canvas_width + 4, canvas_height + 2);
+  let canvas = createCanvas(canvas_width + 25, canvas_height + 25);
+
+  var x = (windowWidth - canvas_width - 25) / 2;
+  var y = (windowHeight - canvas_height - 25) / 2;
+  canvas.position(x, y);
 
   for (let i = 0; i < l; i++) {
     let temp = [];
@@ -144,6 +148,15 @@ function draw() {
       path[i][0] * resolution + resolution / 2,
       20
     );
+    if (i > 0) {
+      strokeWeight(10);
+      line(
+        path[i][1] * resolution + resolution / 2,
+        path[i][0] * resolution + resolution / 2,
+        path[i - 1][1] * resolution + resolution / 2,
+        path[i - 1][0] * resolution + resolution / 2
+      );
+    }
   }
 }
 
@@ -151,9 +164,13 @@ function mouseClicked() {
   if (mouseX <= width && mouseY <= height) {
     x = Math.floor(mouseX / resolution);
     y = Math.floor(mouseY / resolution);
-    if (y == start_pos[0] && x == start_pos[1] || y == end_pos[0] && x == end_pos[1]) {
+    if (
+      (y == start_pos[0] && x == start_pos[1]) ||
+      (y == end_pos[0] && x == end_pos[1])
+    ) {
       pass;
     } else {
+      clear();
       for (let i = 0; i < l; i++) {
         for (let j = 0; j < m; j++) {
           grid[i][j].f = Infinity;
@@ -161,7 +178,6 @@ function mouseClicked() {
           grid[i][j].h = Infinity;
         }
       }
-
       grid[start_pos[0]][start_pos[1]].start = true;
       grid[start_pos[0]][start_pos[1]].f = 0;
       grid[start_pos[0]][start_pos[1]].g = 0;
