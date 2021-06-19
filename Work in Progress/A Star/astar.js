@@ -1,8 +1,8 @@
 canvas_height = window.innerHeight;
 canvas_width = window.innerWidth;
-resolution = 100;
-canvas_height -= canvas_height%resolution;
-canvas_width -= canvas_width%resolution;
+resolution = 200;
+canvas_height -= canvas_height % resolution;
+canvas_width -= canvas_width % resolution;
 
 class Cell {
   constructor() {
@@ -60,38 +60,32 @@ function setup() {
     grid.push(temp);
   }
 
-  grid[0][0].start = true;
-  grid[0][0].f = 0;
-  grid[0][0].g = 0;
-  grid[l - 1][m - 1].end = true;
-  open.push([0, 0]);
-  grid[0][1].obstacle = true;
-  
-  grid[1][1].obstacle = true;
-  
-  grid[2][2].obstacle = true;
+  grid[start_pos[0]][start_pos[1]].start = true;
+  grid[start_pos[0]][start_pos[1]].f = 0;
+  grid[start_pos[0]][start_pos[1]].g = 0;
+  grid[end_pos[0]][end_pos[1]].end = true;
+  open.push(start_pos);
   astar();
 }
 
-function reconstruct(pos){
-  while(1){
-    if(grid[pos[0]][pos[1]].start){
+function reconstruct(pos) {
+  while (1) {
+    if (grid[pos[0]][pos[1]].start) {
       path.push(start_pos);
       break;
     }
     path.push(pos);
     pos = grid[pos[0]][pos[1]].parent;
-    
   }
 }
 
-function astar(){
+function astar() {
   while (open.array.length != 0) {
     let current = grid[open.array[0][0]][open.array[0][1]];
     x = open.array[0][1];
     y = open.array[0][0];
     if (grid[y][x].end == true) {
-      reconstruct([y,x]);
+      reconstruct([y, x]);
       while (open.array.length != 0) {
         open.pop();
       }
@@ -101,26 +95,29 @@ function astar(){
     for (let i = 0; i < 8; i++) {
       dr = y + neighY[i];
       dc = x + neighX[i];
-      if (dr >= l || dc >= m || dr < 0 || dc < 0 || grid[dr][dc].obstacle) continue;
-      if(closed.includes([dr,dc])){
+      if (dr >= l || dc >= m || dr < 0 || dc < 0 || grid[dr][dc].obstacle)
+        continue;
+      if (closed.includes([dr, dc])) {
         continue;
       }
-      
-      
-      
-      let temp_g = current.g + Math.sqrt((dr - y) * (dr - y) + (dc - x) * (dc - x));
-      let temp_h = Math.sqrt((dr - end_pos[0]) * (dr - end_pos[0]) +(dc - end_pos[1]) * (dc - end_pos[1]));
-      if(temp_g + temp_h > grid[dr][dc].f){
+
+      let temp_g =
+        current.g + Math.sqrt((dr - y) * (dr - y) + (dc - x) * (dc - x));
+      let temp_h = Math.sqrt(
+        (dr - end_pos[0]) * (dr - end_pos[0]) +
+          (dc - end_pos[1]) * (dc - end_pos[1])
+      );
+      if (temp_g + temp_h > grid[dr][dc].f) {
         continue;
       }
-      
+
       grid[dr][dc].g = temp_g;
       grid[dr][dc].h = temp_h;
       grid[dr][dc].f = temp_g + temp_h;
       grid[dr][dc].parent = [y, x];
-      open.push([dr,dc]);
+      open.push([dr, dc]);
     }
-    closed.push([y,x]);
+    closed.push([y, x]);
   }
   return;
 }
@@ -131,8 +128,7 @@ function draw() {
   for (let i = 0; i < l; i++) {
     for (let j = 0; j < m; j++) {
       // noStroke();
-      if(grid[i][j].obstacle)
-        fill(0);
+      if (grid[i][j].obstacle) fill(0);
       else if (grid[i][j].start != true && grid[i][j].end != true)
         fill(255, 13, 150);
       else if (grid[i][j].start == true) fill(118, 150, 255);
@@ -141,33 +137,42 @@ function draw() {
     }
   }
 
-  for(let i = 0; i < path.length; i++){
+  for (let i = 0; i < path.length; i++) {
     fill(0);
-    ellipse(path[i][1]*resolution + resolution/2,path[i][0]*resolution+ resolution/2, 20);
+    ellipse(
+      path[i][1] * resolution + resolution / 2,
+      path[i][0] * resolution + resolution / 2,
+      20
+    );
   }
 }
 
-function mouseClicked(){
-  if(mouseX <= width && mouseY <= height){
-    for (let i = 0; i < l; i++) {
-      for (let j = 0; j < m; j++) {
-        grid[i][j].f = Infinity;
-        grid[i][j].g = Infinity;
-        grid[i][j].h = Infinity;
+function mouseClicked() {
+  if (mouseX <= width && mouseY <= height) {
+    x = Math.floor(mouseX / resolution);
+    y = Math.floor(mouseY / resolution);
+    if (y == start_pos[0] && x == start_pos[1] || y == end_pos[0] && x == end_pos[1]) {
+      pass;
+    } else {
+      for (let i = 0; i < l; i++) {
+        for (let j = 0; j < m; j++) {
+          grid[i][j].f = Infinity;
+          grid[i][j].g = Infinity;
+          grid[i][j].h = Infinity;
+        }
       }
+
+      grid[start_pos[0]][start_pos[1]].start = true;
+      grid[start_pos[0]][start_pos[1]].f = 0;
+      grid[start_pos[0]][start_pos[1]].g = 0;
+      grid[end_pos[0]][end_pos[1]].end = true;
+      open.push(start_pos);
+
+      grid[y][x].obstacle = 1 - grid[y][x].obstacle;
+      path = [];
+      open.push(start_pos);
+      astar();
     }
-  
-    grid[0][0].start = true;
-    grid[0][0].f = 0;
-    grid[0][0].g = 0;
-    grid[l - 1][m - 1].end = true;
-    open.push([0, 0]);
-    x = Math.floor(mouseX/resolution);
-    y = Math.floor(mouseY/resolution);
-    grid[y][x].obstacle = 1-grid[y][x].obstacle;
-    path = []
-    open.push(start_pos);
-    astar();
   }
 }
 
@@ -175,7 +180,7 @@ function windowResized() {
   canvas_height = window.innerHeight;
   canvas_width = window.innerWidth;
   resolution = 100;
-  canvas_height -= canvas_height%resolution;
-  canvas_width -= canvas_width%resolution;
+  canvas_height -= canvas_height % resolution;
+  canvas_width -= canvas_width % resolution;
   resizeCanvas(canvas_width, canvas_height);
 }
