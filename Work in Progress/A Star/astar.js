@@ -49,7 +49,7 @@ let start_pos = [0, 0];
 let end_pos = [l - 1, m - 1];
 
 function setup() {
-  createCanvas(canvas_width + 2, canvas_height + 2);
+  createCanvas(canvas_width + 4, canvas_height + 2);
 
   for (let i = 0; i < l; i++) {
     let temp = [];
@@ -137,7 +137,7 @@ function draw() {
         fill(255, 13, 150);
       else if (grid[i][j].start == true) fill(118, 150, 255);
       else fill(255, 59, 13);
-      rect(j * resolution, i * resolution, resolution, resolution, 30);
+      rect(j * resolution + 2, i * resolution, resolution, resolution, 30);
     }
   }
 
@@ -169,4 +169,13 @@ function mouseClicked(){
     open.push(start_pos);
     astar();
   }
+}
+
+function windowResized() {
+  canvas_height = window.innerHeight;
+  canvas_width = window.innerWidth;
+  resolution = 100;
+  canvas_height -= canvas_height%resolution;
+  canvas_width -= canvas_width%resolution;
+  resizeCanvas(canvas_width, canvas_height);
 }
