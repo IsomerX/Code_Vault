@@ -1,0 +1,14 @@
+23 46 69 92 115 138 161 184 207 230 
+230 207 184 161 138 115 92 69 46 23 
+Element to be deleted: 230
+Element to be deleted: 207
+Element to be deleted: 184
+Element to be deleted: 161
+Element to be deleted: 138
+Element to be deleted: 115
+Element to be deleted: 92
+Element to be deleted: 69
+Element to be deleted: 46
+Element to be deleted: 23
+230 207 184 161 138 115 92 69 46 23 
+230 207 184 161 138 115 92 69 46 23 
