@@ -1,16 +1,22 @@
-function cell(h) {
-	this.g = INFINITY;
-	this.h = h;
-	this.f = this.g+this.h;
+canvas_height = 600
+canvas_width = 800
+resolution = 20
+
+class Cell{
+  constructor(){
+    this.parent = [0,0];
+    this.f = Infinity;
+    this.g = Infinity;
+    this.h = Infinity;
+  }
 }
 
-let start = new cell(1000);
-start.g = 0;
-let goal = new cell(0);
+let grid;
 
 function setup() {
-  canvas = createCanvas(screen.availWidth*8/10, screen.availHeight*7/10);
-
+  createCanvas(canvas_width, canvas_height);
+  background(153);
+  let 
 }
 
 function draw() {
