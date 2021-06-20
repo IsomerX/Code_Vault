@@ -1,6 +1,6 @@
 canvas_height = window.innerHeight;
 canvas_width = window.innerWidth;
-resolution = 150;
+resolution = 130;
 canvas_height -= canvas_height % resolution;
 canvas_width -= canvas_width % resolution;
 
@@ -128,7 +128,6 @@ function astar() {
 
 function draw() {
   // background(0);
-
   for (let i = 0; i < l; i++) {
     for (let j = 0; j < m; j++) {
       // noStroke();
