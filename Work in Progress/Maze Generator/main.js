@@ -1,48 +1,68 @@
-function setup(){
-	createCanvas(800,800);
-	n = 4;
-	w = height/n;
+let canvas_height = 800;
+let canvas_width = 600;
+let resolution = 200;
+
+let l = canvas_height / resolution;
+let m = canvas_width / resolution;
+
+let grid = [];
+
+class Cell {
+  constructor() {
+    // left top right bottom
+    this.walls = [true, true, true, true];
+  }
 }
 
-function draw(){
-	background(200);
-	grid = [];
-	for(var i = 0; i < n; i++){
-		var temp = []
-		for(var j = 0; j < n; j++){
-			var ro = new cell(i,j);
-			temp.push(ro);
-		}
-		grid.push(temp);
-	}
-
-	grid[0][0].current = 1;
-
-	for(var i = 0; i < n; i++){
-		for(var j = 0; j < n; j++){
-			dr(grid[i][j]);
-		}
-	}
-	grid[floor(random(0,n))][floor(random(0,n))].current = 1;
-	
+function setup() {
+  var canvas = createCanvas(canvas_height, canvas_width);
+  var x = (windowWidth - canvas_width) / 2;
+  var y = (windowHeight - canvas_height) / 2;
+  canvas.position(x, y);
+  
+  for (let i = 0; i < l; i++) {
+    temp = [];
+    for (let j = 0; j < m; j++) {
+      cell = new Cell();
+      temp.push(cell);
+    }
+    grid.push(temp);
+  }
 }
 
-function cell(i, j){
-	this.i = i;
-	this.j = j;
-	this.neighbours = [];
-	this.visited = 0;
-	this.current = 0;
+function draw() {
+  background(200);
+  for(let i = 0; i < l; i++){
+    for(let j = 0; j < m; j++){
+      strokeWeight(4)
+      if(grid[i][j].walls[0]){
+        line(i*resolution,j*resolution,i*resolution,(j+1)*resolution);
+        ellipse((i+0.5)*resolution,(j+0.5)*resolution,4)
+      }
+      if(grid[i][j].walls[1]){
+        line(i*resolution,j*resolution,(i+1)*resolution,j*resolution);
+        ellipse((i+0.5)*resolution,(j+0.5)*resolution,4)
+      }
+      if(grid[i][j].walls[2]){
+        line((i+1)*resolution,j*resolution,(i+1)*resolution,(j+1)*resolution);
+        ellipse((i+0.5)*resolution,(j+0.5)*resolution,4)
+      }
+      if(grid[i][j].walls[3]){
+        line(i*resolution,(j+1)*resolution,(i+1)*resolution,(j+1)*resolution);
+        ellipse((i+0.5)*resolution,(j+0.5)*resolution,4)
+      }
+    }
+  }
 }
 
-function dr(c){
-	stroke(2);
-	line(c.i*w,c.j*w,c.i*w+w,c.j*w);
-	line(c.i*w,c.j*w,c.i*w,c.j*w+w);
-	line(c.i*w+w,c.j*w,c.i*w+w,c.j*w+w);
-	line(c.i*w,c.j*w+w,c.i*w+w,c.j*w+w);
-	if(c.current){
-		fill(1);
-		square(c.i*w,c.j*w,c.i*w+w,c.j*w+w);
-	}
+function dr(c) {
+  stroke(2);
+  line(c.i * w, c.j * w, c.i * w + w, c.j * w);
+  line(c.i * w, c.j * w, c.i * w, c.j * w + w);
+  line(c.i * w + w, c.j * w, c.i * w + w, c.j * w + w);
+  line(c.i * w, c.j * w + w, c.i * w + w, c.j * w + w);
+  if (c.current) {
+    fill(1);
+    square(c.i * w, c.j * w, c.i * w + w, c.j * w + w);
+  }
 }
