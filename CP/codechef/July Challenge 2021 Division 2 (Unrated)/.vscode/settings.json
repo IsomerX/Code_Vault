@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "cmath": "cpp",
+        "ostream": "cpp",
+        "algorithm": "cpp",
+        "utility": "cpp",
+        "chrono": "cpp",
+        "limits": "cpp",
+        "random": "cpp",
+        "system_error": "cpp",
+        "xlocale": "cpp"
+    }
+}
