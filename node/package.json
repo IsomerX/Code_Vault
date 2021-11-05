@@ -9,6 +9,9 @@
   "author": "Dhruv",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "formidable": "^2.0.1",
+    "nodemailer": "^6.7.0",
+    "upper-case": "^2.0.2"
   }
 }
