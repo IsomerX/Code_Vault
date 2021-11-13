@@ -1,6 +1,6 @@
 canvas_height = window.innerHeight;
 canvas_width = window.innerWidth;
-resolution = 130;
+resolution = 200;
 canvas_height -= canvas_height % resolution;
 canvas_width -= canvas_width % resolution;
 
