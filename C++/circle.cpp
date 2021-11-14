@@ -11,10 +11,10 @@ void sleep(unsigned milliseconds)
 #else
 #include <unistd.h>
 
-void sleep(unsigned milliseconds)
+/*void sleep(unsigned milliseconds)
 {
     usleep(milliseconds * 1000); // takes microseconds
-}
+}*/
 #endif
 
 #define WIDTH 32
