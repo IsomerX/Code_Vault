@@ -21,8 +21,6 @@ void sieve(int n){
     }
 }
 
-void segmented_sieve(int l, int r)
-
 int main()
 {
     memset(a, 1, N);
