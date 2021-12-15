@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="quoteBox">
+            <div id="quote"></div>
+            <div id="auth"></div>
+        </div>
+        <button onclick="genRandomQuote()">Click Me</button>
+        <script>
+            let quoteData;
+            const getQuotes = () => {
+                const api = "https://type.fit/api/quotes";
+                try{
+                    fetch(api).then(res => res.json()).then(data => {
+                        quoteData = data;
+                    }).then(()=>{
+                        genRandomQuote();
+                    })
+                } catch(err){
+                    console.error(err);
+                }
+            }
+            getQuotes();
+
+            const genRandomQuote = () => {
+                let quote = quoteData[Math.floor(Math.random() * (quoteData.length))]
+                console.log(quote);
+                document.getElementById("quote").innerText = quote.text;
+                document.getElementById("auth").innerText = quote.author;
+            }
+        </script>
+    </body>
+</html>
