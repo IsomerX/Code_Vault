@@ -1,0 +1,16 @@
+{
+        "files.associations": {
+                "vector": "cpp",
+                "array": "cpp",
+                "chrono": "cpp",
+                "format": "cpp",
+                "forward_list": "cpp",
+                "initializer_list": "cpp",
+                "list": "cpp",
+                "xhash": "cpp",
+                "xiosbase": "cpp",
+                "xstring": "cpp",
+                "xtree": "cpp",
+                "xutility": "cpp"
+        }
+}
