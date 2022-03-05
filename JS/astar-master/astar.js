@@ -1,5 +1,5 @@
 function cell(h) {
-	this.g = INFINITY;
+	this.g = 10000000;
 	this.h = h;
 	this.f = this.g+this.h;
 }
@@ -10,7 +10,6 @@ let goal = new cell(0);
 
 function setup() {
   canvas = createCanvas(screen.availWidth*8/10, screen.availHeight*7/10);
-
 }
 
 function draw() {
