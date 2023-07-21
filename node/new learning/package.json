@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "new-learning",
   "version": "1.0.0",
@@ -10,3 +11,17 @@
   "author": "",
   "license": "ISC"
 }
+=======
+{
+  "name": "new-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "helloworld.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+>>>>>>> ac136525cd8c595a2d2555d7e5c6e3543280ec8b

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,3 +34,40 @@
 	<script src="functions.js"></script>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+			padding: 0;
+			padding: 0;
+			padding: 0;
+	<meta charset="UTF-8">
+			padding: 0;
+			padding: 0;
+			padding: 0;
+			padding: 0;
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			padding: 0;
+			padding: 0;
+	<style type="text/css">
+
+
+
+		body, html{
+			margin: 0;
+			box-sizing: border-box;
+			padding: 0;
+		}
+	</style>
+	<title>Document</title>
+</head>
+<body>
+
+	<!-- <div class="rangeslider"> 
+	  <input type="range" min="1" max="100" value="10" class="myslider" id="sliderRange"> 
+	</div> 
+ -->	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js"></script>
+	<script src="functions.js"></script>
+</body>
+</html>
+>>>>>>> ac136525cd8c595a2d2555d7e5c6e3543280ec8b

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     margin: 0;
     display: flex;
@@ -7,4 +8,15 @@ body {
 
     /* This centers our sketch vertically. */
     align-items: center;
+=======
+body {
+    margin: 0;
+    display: flex;
+
+    /* This centers our sketch horizontally. */
+    justify-content: center;
+
+    /* This centers our sketch vertically. */
+    align-items: center;
+>>>>>>> ac136525cd8c595a2d2555d7e5c6e3543280ec8b
 }

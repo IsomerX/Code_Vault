@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -18,4 +19,26 @@ int main(){
     cout << n << m << p;
 
     return 0;
+=======
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main(){
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
+
+	#ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+	#endif
+
+    int n, m, p;
+
+    cin >> n >> m >> p;
+
+    cout << n << m << p;
+
+    return 0;
+>>>>>>> ac136525cd8c595a2d2555d7e5c6e3543280ec8b
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "files.associations": {
         "iosfwd": "cpp",
@@ -7,4 +8,15 @@
     "cSpell.ignoreWords": [
         "cv"
     ]
+=======
+{
+    "files.associations": {
+        "iosfwd": "cpp",
+        "xstring": "cpp",
+        "iostream": "cpp"
+    },
+    "cSpell.ignoreWords": [
+        "cv"
+    ]
+>>>>>>> ac136525cd8c595a2d2555d7e5c6e3543280ec8b
 }

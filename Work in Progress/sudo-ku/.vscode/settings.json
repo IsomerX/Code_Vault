@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
         "files.associations": {
                 "vector": "cpp",
@@ -13,4 +14,21 @@
                 "xtree": "cpp",
                 "xutility": "cpp"
         }
+=======
+{
+        "files.associations": {
+                "vector": "cpp",
+                "array": "cpp",
+                "chrono": "cpp",
+                "format": "cpp",
+                "forward_list": "cpp",
+                "initializer_list": "cpp",
+                "list": "cpp",
+                "xhash": "cpp",
+                "xiosbase": "cpp",
+                "xstring": "cpp",
+                "xtree": "cpp",
+                "xutility": "cpp"
+        }
+>>>>>>> ac136525cd8c595a2d2555d7e5c6e3543280ec8b
 }

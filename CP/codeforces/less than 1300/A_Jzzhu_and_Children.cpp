@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // wrong lol 
 
 #include <bits/stdc++.h>  
@@ -23,4 +24,31 @@ int main()
     }
     cout << ans+1 << endl;
     return 0;
+=======
+// wrong lol 
+
+#include <bits/stdc++.h>  
+ 
+using namespace std;
+
+int main()
+{
+    int n, m, greatest = -1, ans = -1,prev=0;
+    cin >> n >> m;
+    vector<int> a(n);
+    for (int i = 0; i < n; i++)
+    {
+        cin >> a[i];
+    }
+    for(int i = n-1; i >= 0; i--)
+    {
+        if(greatest < ceil(a[i]/m))
+        {
+            greatest = ceil(a[i]/m);
+            ans = i;
+        }
+    }
+    cout << ans+1 << endl;
+    return 0;
+>>>>>>> ac136525cd8c595a2d2555d7e5c6e3543280ec8b
 }

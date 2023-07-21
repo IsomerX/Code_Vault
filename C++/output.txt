@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ROR : 1 2 
 high: 
 ans: 1
@@ -7,3 +8,14 @@ ans: 1
 ROR : 50 100 
 high: 50 100 
 ans: 2
+=======
+ROR : 1 2 
+high: 
+ans: 1
+ROR : 1 
+high: 1 
+ans: 1
+ROR : 50 100 
+high: 50 100 
+ans: 2
+>>>>>>> ac136525cd8c595a2d2555d7e5c6e3543280ec8b

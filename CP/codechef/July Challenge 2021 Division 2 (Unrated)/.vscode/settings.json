@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "files.associations": {
         "cmath": "cpp",
@@ -11,4 +12,19 @@
         "xlocale": "cpp",
         "vector": "cpp"
     }
+=======
+{
+    "files.associations": {
+        "cmath": "cpp",
+        "ostream": "cpp",
+        "algorithm": "cpp",
+        "utility": "cpp",
+        "chrono": "cpp",
+        "limits": "cpp",
+        "random": "cpp",
+        "system_error": "cpp",
+        "xlocale": "cpp",
+        "vector": "cpp"
+    }
+>>>>>>> ac136525cd8c595a2d2555d7e5c6e3543280ec8b
 }

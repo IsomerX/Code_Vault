@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 this is a sample text. I am very very funny
+=======
+this is a sample text. I am very very funny
+>>>>>>> ac136525cd8c595a2d2555d7e5c6e3543280ec8b
 lol this is so cool that I get to write whatever I want.

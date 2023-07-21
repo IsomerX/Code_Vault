@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body, html {
     overflow-x: hidden;
 }
@@ -51,4 +52,59 @@ input, textarea{
 
 .sub{
     width: calc(80% + 1em);
+=======
+body, html {
+    overflow-x: hidden;
+}
+
+.interest{
+    width: 100% !important;
+    padding: 0 1em;
+}
+
+.ruler{
+    width: 80% !important;
+    background-color: black;
+    height: 1px;
+    margin: 0 auto;
+}
+
+form{
+    padding: 0 1em;
+    width: 100%;
+}
+
+
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1em;
+}
+
+.gallery .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 0.5em 0; */
+}
+
+.gallery .card img{
+    width: 100%;
+}
+
+.gallery .card span{
+    padding: 1em;
+}
+
+input, textarea{
+    padding: 0.5em;
+    margin: 0.5em 0;
+    width: 80%; 
+    border: 1px solid #ccc;
+    font-family: poppins;
+}
+
+.sub{
+    width: calc(80% + 1em);
+>>>>>>> ac136525cd8c595a2d2555d7e5c6e3543280ec8b
 }

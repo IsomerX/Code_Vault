@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "files.associations": {
         "ostream": "cpp",
@@ -22,4 +23,30 @@
     "cSpell.ignoreWords": [
         "forn"
     ]
+=======
+{
+    "files.associations": {
+        "ostream": "cpp",
+        "algorithm": "cpp",
+        "utility": "cpp",
+        "array": "cpp",
+        "deque": "cpp",
+        "forward_list": "cpp",
+        "initializer_list": "cpp",
+        "list": "cpp",
+        "regex": "cpp",
+        "valarray": "cpp",
+        "vector": "cpp",
+        "xhash": "cpp",
+        "xstring": "cpp",
+        "xtree": "cpp",
+        "xutility": "cpp",
+        "iostream": "cpp",
+        "queue": "cpp",
+        "unordered_map": "cpp"
+    },
+    "cSpell.ignoreWords": [
+        "forn"
+    ]
+>>>>>>> ac136525cd8c595a2d2555d7e5c6e3543280ec8b
 }

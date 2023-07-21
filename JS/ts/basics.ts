@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let num: number;
 num = 2;
 
@@ -46,4 +47,54 @@ function insertAtBeginning<T>(array: T[], value: T){
 
 const demo = ["1,2,3"];
 
+=======
+let num: number;
+num = 2;
+
+let s: string;
+s = "lol";
+
+let b: boolean;
+b = true;
+
+let hobbies: string[];
+hobbies = ["Sports", "Cooking"];
+
+type Person = {
+    name: string;
+    age: number;
+};
+
+let person: Person;
+
+person = {
+    name: "Dhruv",
+    age: 19,
+};
+
+let people: Person[];
+
+people = [
+    {
+        name: "tommy",
+        age: 10,
+    },
+];
+
+let course: string | number = "This is a string remember";
+course = 22;
+
+const add = (a: number, b: number) => {
+    return a + b;
+};
+
+
+function insertAtBeginning<T>(array: T[], value: T){
+    const newArray = [value, ...array];
+    return newArray;
+}
+
+const demo = ["1,2,3"];
+
+>>>>>>> ac136525cd8c595a2d2555d7e5c6e3543280ec8b
 const updated = insertAtBeginning(demo, "1");

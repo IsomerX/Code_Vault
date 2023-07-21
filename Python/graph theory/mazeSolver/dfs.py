@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 2
 # 2 4
 # 3 5
@@ -29,3 +30,36 @@ def dfs(u):
 print(grid)
 dfs(2)
 
+=======
+# 1 2
+# 2 4
+# 3 5
+# 2 3
+# 1 6
+# 6 7
+# 6 8
+
+n = int(input())
+
+grid = {}
+
+for i in range(n-1):
+    u,v = map(int, input().split())
+    if(u in grid):
+        grid[u].append(v)
+    else:
+        grid[u] = [v]
+
+def dfs(u):
+    if(u not in grid):
+        print(u)
+        return
+    print(u)
+    for i in grid[u]:
+        dfs(i)
+    return
+
+print(grid)
+dfs(2)
+
+>>>>>>> ac136525cd8c595a2d2555d7e5c6e3543280ec8b

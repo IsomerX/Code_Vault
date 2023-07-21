@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 {
     "cSpell.ignoreWords": [
         "blit",
         "pygame"
     ],
     "python.pythonPath": "C:\\Users\\dbaks\\anaconda3\\python.exe"
+=======
+{
+    "cSpell.ignoreWords": [
+        "blit",
+        "pygame"
+    ],
+    "python.pythonPath": "C:\\Users\\dbaks\\anaconda3\\python.exe"
+>>>>>>> ac136525cd8c595a2d2555d7e5c6e3543280ec8b
 }
