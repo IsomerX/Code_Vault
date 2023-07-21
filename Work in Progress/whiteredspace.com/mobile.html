@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+
+<head>
+  <title>White Red Space</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta http-equiv='cache-control' content='no-cache'>
+  <meta http-equiv='expires' content='0'>
+  <meta http-equiv='pragma' content='no-cache'>
+  <link rel="icon" href="photos/favicon.ico">
+  <link rel="stylesheet" href="unistyles-mobile.css">
+  <meta name="keywords" content="ui/ux, designer, freelance, website, portfolio">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- <link rel='stylesheet' id='main-css'  href=mainb54d.css?ver=1601368176' media='all' /> -->
+
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: black;
+    }
+
+
+    a.sp {
+      transition: 0.4s all ease-in-out;
+      padding: 0 2vw;
+      -webkit-text-stroke: .02em #fff !important;
+      text-stroke: 1px #fff !important;
+      font-family: sequel, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.01em;
+      font-weight: normal;
+      color: white;
+      opacity: 1 !important;
+    }
+
+    a.sp:hover {
+      transform: scale(1.1);
+
+
+      /* filter: invert(100%); */
+    }
+
+    ul.special li:hover>.cursor {
+      transform: scale(1.2);
+      color: white;
+      /* filter: invert(100%); */
+    }
+
+    .bnr {
+      position: relative;
+      height: 100vh;
+      width: 100%;
+    }
+
+    .bnr h1 span:first-child>span,
+    .copy span:first-child>span {
+      transition-delay: .6s;
+    }
+
+    .bnr h1 span:nth-child(2)>span,
+    .copy span:nth-child(2)>span {
+      transition-delay: .7s;
+    }
+
+    .bnr_c {
+      position: absolute;
+      width: 39vw;
+      left: 50%;
+      transform: translate(-50%, 50px);
+      z-index: 3;
+    }
+
+    #scroll {
+      position: absolute;
+      left: 120%;
+      top: 17vh;
+      width: 100px;
+      z-index: 5;
+    }
+
+    #scroll,
+    .beh {
+      animation-name: rotate;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+    }
+
+    @keyframes rotate {
+      from {
+        transform: rotate(0deg);
+      }
+
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+
+    .bnr_c p {
+      font-size: 16px;
+    }
+
+    .bnr_t {
+      position: relative;
+      transform: translate(0,55vh);
+      height: inherit;
+    }
+
+    .bnr_t>div {
+      position: absolute;
+    }
+
+    .bnr_img {
+      margin-top: -4%;
+    }
+
+    .bnr_t>.no-out h1 {
+      -webkit-text-stroke: 0 #4bbfda;
+      text-stroke: 0 #4bbfda;
+      color: #fff;
+    }
+
+    .bnr_t img {
+      width: 39vw;
+      /* margin: auto; */
+    }
+
+    .le {
+      margin-left: -18%;
+      /*23*/
+    }
+
+    .bnr_img {
+      width: 70vw;
+      height: auto;
+      position: relative;
+      width: 0 auto;
+    }
+
+    .bnr_img>div {
+      position: absolute;
+      top: 8%;
+      left: 0;
+      width: 100%;
+    }
+
+    .bnr_img>div img {
+      transition: none;
+    }
+
+    .bnr_img img {
+      z-index: 3;
+    }
+
+    #img_chu {
+      width: 14.5vw;
+    }
+
+    #img_sho {
+      width: 85%;
+    }
+
+    #img_abu {
+      width: 90%;
+    }
+
+    #img_sta {
+      width: 84%;
+    }
+
+    .con {
+      margin-top: 50vh;
+      justify-content: space-between;
+    }
+
+    .con_t>div {
+      width: 70%;
+      position: relative;
+      z-index: 3;
+      margin: 0 auto -5.2% auto;
+    }
+
+    .con_p {
+      transform: translate(-4.53vw, 5.1%);
+      color: #fff;
+    }
+
+    .btn {
+      border-bottom: 1px solid rgba(240, 240, 243, .18);
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: space-between;
+      transition: .6s;
+      border-bottom: 1px solid transparent;
+      box-shadow: inset 0 -100px #fff;
+      padding: 15px 20px;
+      color: #231f20;
+    }
+
+    .btn:hover img {
+      filter: invert(.7);
+    }
+
+    .prj_btn {
+      width: 39.5%;
+      transform: translate(0, -105.6%);
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+    /* Desktops and laptops ----------- */
+    @media only screen and (min-width : 1150px) and (max-width : 1356px) {
+      .wrk {
+        margin-top: 15vh;
+      }
+
+      .con {
+        padding-bottom: 15vh;
+        margin-top: 46vh;
+      }
+
+      #img_chu {
+        width: 15vw;
+        margin-bottom: -10%;
+      }
+
+      #img_abu {
+        margin-bottom: 7%;
+      }
+
+      #img_sta {
+        width: 80%;
+        margin-bottom: -6%;
+      }
+
+      .extra {
+        position: absolute;
+        width: 30vw;
+        top: 10%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+      }
+
+      p {
+        font-size: 17px;
+        line-height: 25px;
+      }
+    }
+
+
+    @media only screen and (min-width : 1430px) {
+      .bnr_t {
+        transform: translate(0, 60vh);
+      }
+
+      .bnr h1 {
+        line-height: 110%;
+        font-size: 8.1vw;
+      }
+
+      .bnr_img {
+        margin-top: -15%;
+      }
+
+      #img_sho {
+        width: 88%;
+        margin-left: 2.2vw;
+        margin-bottom: -2%;
+      }
+
+      .wrk {
+        margin-top: 12vh;
+      }
+
+      .con {
+        padding-bottom: 10vh;
+        margin-top: 36vh;
+      }
+
+      .extra {
+        position: absolute;
+        width: 30vw;
+        top: 14%;
+        left: 78%;
+        transform: translate(-50%, -50%);
+      }
+    }
+
+
+    @media screen and (min-width: 601px) {
+      div.example {
+        font-size: 80px;
+      }
+    }
+
+    /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+    @media screen and (max-width: 1150px) {
+      p {
+        font-size: 15px;
+        line-height: 20px;
+      }
+    }
+
+    @media screen and (max-width: 990px) {
+      p {
+        font-size: 12px;
+        line-height: 17px;
+      }
+    }
+
+    @media screen and (max-width: 790px) {
+      p {
+        font-size: 10px;
+        line-height: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="logo">
+    <img src="photos/logo-1.png" style="width:30vw">
+  </div>
+  <nav class="col-6">
+    <div>
+      <a data-scroll href="#about" id="about_link">about us</a><br>
+      <a data-scroll href="#why" id="why_link">why us</a><br>
+      <a data-scroll href="#facts" id="facts_link">facts</a>
+    </div>
+    <div>
+      <a data-scroll href="#services" id="clients_link">services</a><br>
+      <a data-scroll href="#career" id="career_link">career</a><br>
+      <a data-scroll href="#social" id="social_link">socials</a>
+    </div>
+  </nav>
+  <!--MAIN-->
+  <!--SCROLL-CTN-->
+  <div id="luxy">
+    <!--BANNER-->
+
+
+
+
+
+
+
+
+<!-- 
+    <div class="bnr col-12">
+      <div class="bnr_c">
+        <img id="scroll" src="photos/whitered.png" style="height: 50px; width: 50px;">
+      </div><br>
+      <div class="bnr_t col-4">
+        <div class="no-out" style="z-index: 1">
+          <h1 class="luxy-el" data-horizontal="1" data-speed-x="-50">
+            <span class="row">
+              <span data-emergence="hidden">The right space is here!</span>
+            </span>
+          </h1>
+          <h1 class="le luxy-el" data-horizontal="1" data-speed-x="35">
+            <span class="row">
+              <span data-emergence="hidden">The right space is here!</span>
+            </span>
+          </h1>
+        </div>
+
+        <div style="z-index: 2000000000000000;" class="bnr_img imgrev luxy-el" data-speed-y="-19" data-offset="-80"
+          data-emergence="hidden">
+          <img id="imgb" src="pics/top1.png">
+          <div>
+            <img id="imgc" src="pics/top2.png" class="luxy-el" data-speed-y="15" data-offset="-100">
+          </div>
+        </div>
+
+        <div style="z-index: 3;">
+          <h1 class="luxy-el outline" data-horizontal="1" data-speed-x="-50">
+            <span class="row">
+              <span data-emergence="hidden">The right space is here!</span>
+            </span>
+          </h1>
+          <h1 class="le luxy-el outline" data-horizontal="1" data-speed-x="35">
+            <span class="row">
+              <span data-emergence="hidden">The right space is here!</span>
+            </span>
+          </h1>
+        </div>
+      </div> -->
+
+
+
+
+
+
+
+
+    <div class="bnr">
+      <div class="bnr_c">
+        <img id="scroll" src="photos/whitered.png" style="height: 50px; width: 50px;">
+      </div><br>
+      <div class="bnr_t col-4">
+        <div class="no-out" style="z-index: 1; ">
+          <h1 class="luxy-el" data-horizontal="1" data-speed-x="-50">
+            <span class="row">
+              <span>The right space is here!</span>
+            </span>
+          </h1>
+          <h1 class="le luxy-el" data-horizontal="1" data-speed-x="35">
+            <span class="row">
+              <span>The right space is here!</span>
+            </span>
+          </h1>
+        </div>
+
+        <div style="z-index: 2;" class="bnr_img imgrev luxy-el"
+          data-speed-y="-19" data-offset="-200" data-emergence="hidden">
+          <img id="imgb" src="pics/top1.png" style="width: 100%;">
+          <div>
+            <img id="imgc" src="mobile/pics/top22.png" class="luxy-el" data-speed-y="15" data-offset="-50"
+              style="width: 100% !important;">
+          </div>
+        </div>
+
+        <div style="z-index: 3;">
+          <h1 class="luxy-el outline" data-horizontal="1" data-speed-x="-50">
+            <span class="row">
+              <span>The right space is here!</span>
+            </span>
+          </h1>
+          <h1 class="le luxy-el outline" data-horizontal="1" data-speed-x="35">
+            <span class="row">
+              <span>The right space is here!</span>
+            </span>
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!--WORK-->
+
+
+
+    <div class="wrk">
+      <img src="pics/filler.gif" class="filler topper" alt="">
+      <div class="wrk" style="padding-top: 0vh;" id="about">
+        <p class="row" style="margin-top: 12px;">
+          <span data-emergence="hidden" style="transition-delay: .8s"></span>
+        </p>
+        <h1 style="z-index: 100;" id="about">
+          <span class="row">
+            <span class="outline -o" data-emergence="hidden">about us</span>
+          </span>
+          <span class="row">
+            <span data-emergence="hidden">about us</span>
+          </span>
+          <span class="row">
+            <span class="outline -o" data-emergence="hidden">about us</span>
+          </span>
+        </h1>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="wrk_s">
+        <div class="wrk_e" style="width: 80vw; margin: 0 auto;">
+          <div class="w-img imgrev" onmousemove="vis();" onmouseout="hid();">
+            <img class="bg" src="pics/about us 1 copy.png">
+            <div style="left: -10%" class="luxy-el" data-speed-y="4" data-offset="-40">
+              <img id="img_chu" src="pics/about us 2.png" style="height: 100%; width: 100%;">
+            </div>
+          </div>
+        </div>
+        <span class="row" style="margin: 0 auto !important; text-align: center;">
+          <span data-emergence="hidden">
+            <p style="width: 80vw; padding-top: 10vw; margin: 0 auto !important; font-size: 4vw; line-height: 7vw;">
+              White Red Space is created by first generation internet users, explorers and creatives.
+              We believe thinking differently allows us to cover all the spaces unknown and inspire
+              those around us, with a no BS approach to everything we do and say.
+              We bring digital and on-ground marketing solutions to life. Successful ads are an
+              amalgamation of colour, emotion and connection. At White Red Space, we make sure
+              you give you a mix of these three combinations with a dash of uniqueness. We help
+              your brand connect deeply with your customers.
+            </p>
+          </span>
+        </span>
+      </div>
+
+
+
+
+      <div class="wrk_t" style="padding: 15vh 0 0 0; z-index: 100; ">
+        <h1 style="z-index: 100; text-align: center; margin:0 auto;">
+          <span class="row" id="services">
+            <span data-emergence="hidden"><u>services</u></span>
+          </span>
+        </h1>
+      </div>
+
+
+
+
+
+
+
+      <span class="row" style="padding-top: 10vh;">
+        <div class="wrk_s flex jus">
+          <div class="wrk_e">
+            <div class="w-img imgrev" onmousemove="vis();" onmouseout="hid();">
+              <img class="bg rt" data-emergence="hidden" src="mobile/pics/01.png">
+            </div>
+          </div>
+        </div>
+      </span>
+      <span class="row" style="padding-top: 10vh;">
+        <div class="wrk_s flex jus">
+          <div class="wrk_e">
+            <div class="w-img imgrev" onmousemove="vis();" onmouseout="hid();">
+              <img class="bg rt" data-emergence="hidden" src="mobile/pics/02.png">
+            </div>
+          </div>
+        </div>
+      </span>
+      <span class="row" style="padding-top: 10vh;">
+        <div class="wrk_s flex jus">
+          <div class="wrk_e">
+            <div class="w-img imgrev" onmousemove="vis();" onmouseout="hid();">
+              <img class="bg rt" data-emergence="hidden" src="mobile/pics/03.png">
+            </div>
+          </div>
+        </div>
+      </span>
+      <span class="row" style="padding-top: 10vh;">
+        <div class="wrk_s flex jus">
+          <div class="wrk_e">
+            <div class="w-img imgrev" onmousemove="vis();" onmouseout="hid();">
+              <img class="bg rt" data-emergence="hidden" src="mobile/pics/04.png">
+            </div>
+          </div>
+        </div>
+      </span>
+      <span class="row" style="padding-top: 10vh;">
+        <div class="wrk_s flex jus">
+          <div class="wrk_e">
+            <div class="w-img imgrev" onmousemove="vis();" onmouseout="hid();">
+              <img class="bg rt" data-emergence="hidden" src="mobile/pics/05.png">
+            </div>
+          </div>
+        </div>
+      </span>
+      <span class="row" style="padding-top: 10vh;">
+        <div class="wrk_s flex jus">
+          <div class="wrk_e">
+            <div class="w-img imgrev" onmousemove="vis();" onmouseout="hid();">
+              <img class="bg rt" data-emergence="hidden" src="mobile/pics/06.png">
+            </div>
+          </div>
+        </div>
+      </span>
+      <span class="row" style="padding-top: 10vh;">
+        <div class="wrk_s flex jus">
+          <div class="wrk_e">
+            <div class="w-img imgrev" onmousemove="vis();" onmouseout="hid();">
+              <img class="bg rt" data-emergence="hidden" src="mobile/pics/07.png">
+            </div>
+          </div>
+        </div>
+      </span>
+
+
+
+
+
+
+
+
+
+
+      <img src="pics/filler.gif" class="filler whyy">
+
+
+
+
+
+      <div class="wrk" style="padding-top: 25vh;">
+        <p class="row" style="margin-top: 12px;">
+          <span data-emergence="hidden" style="transition-delay: .8s"></span>
+        </p>
+        <h1 style="z-index: 100;" id="why">
+          <span class="row">
+            <span class="outline -o" data-emergence="hidden">Why us</span>
+          </span>
+          <span class="row">
+            <span data-emergence="hidden">Why us</span>
+          </span>
+          <span class="row">
+            <span class="outline -o" data-emergence="hidden">Why us</span>
+          </span>
+        </h1>
+      </div>
+
+
+
+
+
+
+      <div class="wrk_s">
+        <div class="wrk_e" style="width: 80vw; margin: 0 auto;">
+          <div class="w-img imgrev" onmousemove="vis();" onmouseout="hid();">
+            <img class="bg" src="pics/why us.png">
+          </div>
+        </div>
+        <span class="row" style="margin: 0 auto !important; text-align: center;">
+          <span data-emergence="hidden">
+            <p style="width: 80vw; padding-top: 10vw; margin: 0 auto !important; font-size: 4vw; line-height: 7vw;">
+              Every step of our work requires competence and professionalism to create the outcome that
+              puts our clients at the very top!<br>
+              We are a full service agency but not full of it.
+              We prefer to work for our clients and not see them as an overload
+              Our commonly held beliefs aren’t as common as you might anticipate which is what makes
+              White Red Space the choice for those looking for more-and even better.
+            </p>
+          </span>
+        </span>
+      </div>
+
+
+
+
+
+
+
+      <div class="wrk_t" style="padding: 15vh 0 10vh 0; z-index: 100; ">
+        <h1 style="z-index: 100; text-align: center; margin:0 auto;">
+          <!-- <span class="row">
+              <span class="outline -o" data-emergence="hidden">FACTS</span>
+            </span> -->
+          <span class="row" id="facts">
+            <span data-emergence="hidden"><u>FACTS</u></span>
+          </span>
+          <p>
+            <span class="row">
+              <span data-emergence="hidden">
+                <p
+                  style="position:relative; top: 12vh;text-align:center;white-space: initial; margin: 0 auto; font-size: 10vw;">
+                  <ul
+                    style="position:relative; top: 12vh;text-align:center; width: 100%;white-space: initial; margin: 0 auto; font-size: 4vw;list-style: square;">
+                    <li>
+                      There are 3.03 Billion active social media users</li><br>
+                    <li>
+                      It gives you direct access to all its users </li><br>
+                    <li>
+                      It allows your brand to grow a following </li><br>
+                    <li>
+                      Follower growth can actually help you grow your business</li>
+                  </ul>
+                </p>
+              </span>
+            </span>
+          </p>
+          <!-- <span class="row">
+              <span class="outline -o" data-emergence="hidden">work</span>
+            </span> -->
+        </h1>
+      </div>
+
+
+
+      <!-- clients start  -->
+<!-- 
+      <div class="wrk_t" style="padding-top: 20vh; z-index: 100; padding-bottom: 5vh; text-align: center; ">
+        <h1 style="z-index: 100; text-align: center !important;" id="clients">
+          <span class="row">
+            <span class="outline -o" data-emergence="hidden">OUR CLIENTS</span>
+          </span>
+          <span class="row">
+            <span data-emergence="hidden">OUR CLIENTS</span>
+          </span>
+          <span class="row">
+            <span class="outline -o" data-emergence="hidden">OUR CLIENTS</span>
+          </span>
+        </h1>
+      </div>
+
+
+
+
+
+
+
+      <span class="row">
+        <div class="wrk_s flex jus">
+          <div class="wrk_e" style="margin: 0 auto">
+            <div class="w-img imgrev" onmousemove="vis();" onmouseout="hid();">
+              <img class="bg" src="mobile/photos/companies/L2.png">
+            </div>
+          </div>
+        </div>
+      </span>
+      <span class="row">
+        <div class="wrk_s flex jus">
+          <div class="wrk_e" style="margin: 0 auto">
+            <div class="w-img imgrev" onmousemove="vis();" onmouseout="hid();">
+              <img class="bg" src="mobile/photos/companies/L3.png">
+            </div>
+          </div>
+        </div>
+      </span>
+      <span class="row">
+        <div class="wrk_s flex jus">
+          <div class="wrk_e" style="margin: 0 auto">
+            <div class="w-img imgrev" onmousemove="vis();" onmouseout="hid();">
+              <img class="bg" src="mobile/photos/companies/L7.png">
+            </div>
+          </div>
+        </div>
+      </span>
+      <span class="row">
+        <div class="wrk_s flex jus">
+          <div class="wrk_e" style="margin: 0 auto">
+            <div class="w-img imgrev" onmousemove="vis();" onmouseout="hid();">
+              <img class="bg" src="mobile/photos/companies/L1.png">
+            </div>
+          </div>
+        </div>
+      </span>
+      <span class="row">
+        <div class="wrk_s flex jus">
+          <div class="wrk_e" style="margin: 0 auto">
+            <div class="w-img imgrev" onmousemove="vis();" onmouseout="hid();">
+              <img class="bg" src="mobile/photos/companies/L8.png">
+            </div>
+          </div>
+        </div>
+      </span>
+      <span class="row">
+        <div class="wrk_s flex jus">
+          <div class="wrk_e" style="margin: 0 auto">
+            <div class="w-img imgrev" onmousemove="vis();" onmouseout="hid();">
+              <img class="bg" src="mobile/photos/companies/L9.png">
+            </div>
+          </div>
+        </div>
+      </span>
+      <span class="row">
+        <div class="wrk_s flex jus">
+          <div class="wrk_e" style="margin: 0 auto"> 
+            <div class="w-img imgrev" onmousemove="vis();" onmouseout="hid();">
+              <img class="bg" src="mobile/photos/companies/L11.png">
+            </div>
+          </div>
+        </div>
+      </span>
+      <span class="row">
+        <div class="wrk_s flex jus">
+          <div class="wrk_e" style="margin: 0 auto">
+            <div class="w-img imgrev" onmousemove="vis();" onmouseout="hid();">
+              <img class="bg" src="mobile/photos/companies/L4.png">
+            </div>
+          </div>
+        </div>
+      </span>
+      <span class="row">
+        <div class="wrk_s flex jus">
+          <div class="wrk_e" style="margin: 0 auto">
+            <div class="w-img imgrev" onmousemove="vis();" onmouseout="hid();">
+              <img class="bg" src="mobile/photos/companies/L12.png">
+            </div>
+          </div>
+        </div>
+      </span>
+      <span class="row">
+        <div class="wrk_s flex jus">
+          <div class="wrk_e" style="margin: 0 auto">
+            <div class="w-img imgrev" onmousemove="vis();" onmouseout="hid();">
+              <img class="bg" src="mobile/photos/companies/L10.png">
+            </div>
+          </div>
+        </div>
+      </span>
+      <span class="row">
+        <div class="wrk_s flex jus">
+          <div class="wrk_e" style="margin: 0 auto">
+            <div class="w-img imgrev" onmousemove="vis();" onmouseout="hid();">
+              <img class="bg" src="mobile/photos/companies/L6.png">
+            </div>
+          </div>
+        </div>
+      </span>
+      <span class="row">
+        <div class="wrk_s flex jus">
+          <div class="wrk_e" style="margin: 0 auto">
+            <div class="w-img imgrev" onmousemove="vis();" onmouseout="hid();">
+              <img class="bg" src="mobile/photos/companies/L5.png">
+            </div>
+          </div>
+        </div>
+      </span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <span class="row"
+        style="font-size: 1.6em; color: white; text-align: center; margin-top: 10vh;font-family: sequel, sans-serif;;">And
+        You can be up there too.</span>
+ -->
+
+
+ <!-- clients end  -->
+
+
+
+
+      <!-- <div class="wrk_s">
+          <div class="wrk_e" style="width: 40vw;">
+            <a target="_blank" href="http://bit.ly/chuu-web">
+              <div class="w-img imgrev" data-emergence="hidden" onmousemove="vis();" onmouseout="hid();">
+                <img class="bg" src="photos/chbg.jpg">
+                <div style="left: 30.8%" class="luxy-el" data-speed-y="4" data-offset="-65">
+                  <img id="img_chu" src="photos/chuu.png">
+                </div>
+              </div>
+            </a>
+            <div class="w-txt">
+              <p>01.</p>
+              <div>
+                <p>Chuu Seoul</p>
+                <span>Website</span>
+              </div>
+            </div>
+           </div>
+         </div> -->
+
+
+
+
+
+
+      <div class="wrk" style="padding-top: 10vh;" id="career">
+        <p class="row" style="margin-top: 12px;">
+          <span data-emergence="hidden" style="transition-delay: .8s"></span>
+        </p>
+        <h1 style="z-index: 100;" id="why">
+          <span class="row">
+            <span class="outline -o" data-emergence="hidden">career</span>
+          </span>
+          <span class="row">
+            <span data-emergence="hidden">career</span>
+          </span>
+          <span class="row">
+            <span class="outline -o" data-emergence="hidden">career</span>
+          </span>
+        </h1>
+      </div>
+
+
+
+      <div class="wrk_s">
+        <div class="wrk_e" style="width: 80vw; margin: 0 auto;">
+          <div class="w-img imgrev" onmousemove="vis();" onmouseout="hid();">
+            <img class="bg" src="pics/career.png">
+            <div style="left: -10%" class="luxy-el" data-speed-y="4" data-offset="-350">
+              <img id="img_chu" src="pics/career2.png" style="height: 100%; width: 100%;">
+            </div>
+          </div>
+        </div>
+        <span class="row" style="margin: 0 auto !important; text-align: center;">
+          <span data-emergence="hidden">
+            <p style="width: 80vw; padding-top: 10vw; margin: 0 auto !important; font-size: 4vw; line-height: 7vw;">
+              Want to join us?<br>
+              We’re always on the look for individuals that are passionate about creating
+              exceptional brand experiences and think in our space.
+              We offer you a relaxed yet challenging environment where you can learn, collaborate and grow. Look below for the ‘spaces’ we’re currently seeking to fill<br><br>
+              Account Manager (Delhi) - Apply Now<br>
+              Junior Designer (Delhi) - Apply Now<br>
+              Copywriter (Delhi) - Apply Now
+            </p>
+          </span>
+        </span>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="wrk_s jus flex" style=" margin-top: 10vh; " id="social">
+        <img src="mobile/pics/last1.png" alt="" style="width: 100%; margin: 0 auto; ">
+      </div>
+      <ul class="row special"
+        style=" width:100%;justify-content: space-between;display:flex; margin:0 auto; vertical-align: middle; height: 100%;padding-top: 5vh;">
+        <a href="https://instagram.com/whiteredspace?igshid=1d2e4kwl6ltxz" class="sp ><li data-emergence=" hidden"
+          style="font-size: 3.5vw!important;" id="insta">instagram</li></a>
+        <a href="https://www.facebook.com/White-Red-Space-103824651515824/" class="sp ><li data-emergence=" hidden"
+          style="font-size: 3.5vw!important;" id="insta">facebook</li></a>
+        <a href="https://www.facebook.com/White-Red-Space-103824651515824/" class="sp ><li data-emergence=" hidden"
+          style="font-size: 3.5vw!important;" id="insta">linkedin</li></a>
+      </ul>
+
+
+
+
+
+
+
+
+      <!--CONTACT-->
+      <div class="con flex" style="text-align: center; margin-top: 2vh;">
+        <div class="con_p" style="margin: 0 auto;">
+          <p class="delay" style="font-size: 4vw; line-height: 6vw;">
+            <span class="row">
+              <span data-emergence="hidden">Branding? Content Strategy? Marketing?
+
+              </span>
+            </span>
+            <span class="row">
+              <span data-emergence="hidden">We’ll help you out!
+              </span>
+            </span>
+            <span class="row">
+              <span data-emergence="hidden">Shoot us a mail.</span>
+            </span>
+            <span class="row">
+              <span data-emergence="hidden">contact@whiteredspace.com</span>
+            </span>
+          </p><br>
+          <a href="mailto:contact@whiteredspace.com?subject=Lets%20Work%20Together" class="btn "
+            title="We usually respond in a day.">
+            <p>
+              <span class="row">
+                <span data-emergence="hidden" style="color: #231f20 !important; font-size: 4vw;">Get in touch</span>
+              </span>
+            </p>
+          </a>
+
+          <!-- <p class="delay copy">
+            <span class="row">
+              <span data-emergence="hidden"><a href="www.highbrowsystems.tech"> Designed and developed by Highbrow
+                  Systems.</a></span>
+            </span>
+            <span class="row">
+              <span data-emergence="hidden">© <span style="display: inline;" id="year"></span> All rights
+                reserved.</span>
+            </span>
+          </p> -->
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--SCROLL-END-->
+  </div>
+  <!--SCRIPTS-->
+
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]', {
+      topOnEmptyHash: true, // Scroll to the top of the page for links with href="#"
+
+      // Speed & Duration
+      speed: 800, // Integer. Amount of time in milliseconds it should take to scroll 1000px
+      speedAsDuration: false, // If true, use speed as the total duration of the scroll animation
+      durationMax: null, // Integer. The maximum amount of time the scroll animation should take
+      durationMin: null, // Integer. The minimum amount of time the scroll animation should take
+      clip: true, // If true, adjust scroll distance to prevent abrupt stops near the bottom of the page
+    });
+
+    const cursor = document.querySelector('.cursor');
+
+
+    function is_touch_enabled() {
+      return ('ontouchstart' in window) ||
+        (navigator.maxTouchPoints > 0) ||
+        (navigator.msMaxTouchPoints > 0);
+    }
+
+    if (is_touch_enabled()) {
+      cursor.setAttribute("style", "display:none");
+    }
+
+    document.addEventListener('mousemove', e => {
+      cursor.setAttribute("style", "top: " + (e.pageY - 50) + "px; left: " + (e.pageX - 50) + "px;")
+    });
+
+    document.addEventListener('click', () => {
+      cursor.classList.add("expand");
+
+      setTimeout(() => {
+        cursor.classList.remove("expand");
+      }, 500)
+    });
+
+
+    window.onscroll = function () {
+      scrollRotate();
+    };
+
+    function scrollRotate() {
+      let cia = document.querySelector(".ci");
+      let cia1 = document.querySelector(".ci1");
+      let cia2 = document.querySelector(".ci2");
+      let n = 4;
+      let t = 180;
+      if (screen.width < 1080) {
+        t = 0;
+      }
+      cia.style.transform = "rotate(" + (window.pageYOffset / 4 + t) + "deg)";
+      cia2.style.transform = "rotate(" + (window.pageYOffset / 4 + t) + "deg)";
+      cia1.style.transform = "rotate(" + (window.pageYOffset / 4 + t) + "deg)";
+    }
+
+
+    // document.addEventListener('mousemove', e => {
+    //     cursor.setAttribute("style", "top: "+e.pageY+"px; left: "+e.pageX+"px;")
+    // })
+
+    // document.addEventListener('click', () => {
+    //     cursor.classList.add("expand");
+
+    //     setTimeout(() => {
+    //         cursor.classList.remove("expand");
+    //     }, 500)
+    // })
+
+
+
+    document.onreadystatechange = function () {
+      if (document.readyState !== "complete") {
+        document.querySelector("#loader").style = "visibility: visible;";
+      } else {
+        document.querySelector("#loader").style = "opacity: 0; pointer-events: none;";
+        setTimeout(function () {
+          document.querySelector("#loader").style = "display: none";
+        }, 1200);
+      }
+    };
+
+
+
+    document.getElementById('year').innerHTML = new Date().getFullYear();
+
+    // function changeImg(imgNumber) {
+    //   var bImg = ["pics/top1.png"];
+    //   var cImg = ["pics/top2.png"];
+    //   //var imgShown = document.getElementById('imgc').src;
+    //   var newImgNumber = Math.floor(Math.random() * bImg.length);
+    //   document.getElementById('imgb').src = bImg[newImgNumber];
+    //   document.getElementById('imgc').src = cImg[newImgNumber];
+    // }
+
+    document.addEventListener("DOMContentLoaded", changeImg);
+
+
+
+
+
+
+    var $ = document.querySelector.bind(document);
+    var $on = document.addEventListener.bind(document);
+
+    var xmouse, ymouse;
+    var ball = $('#float');
+    var x = void 0,
+      y = void 0,
+      dx = void 0,
+      dy = void 0,
+      tx = 0,
+      ty = 0,
+      key = -1;
+
+    $on('mousemove', function (e) {
+      xmouse = e.clientX || e.pageX;
+      ymouse = e.clientY || e.pageY;
+    });
+
+    document.addEventListener("DOMContentLoaded", followMouse);
+  </script>
+  <script src="js/luxy.js"></script>
+  <script src="js/emergence.js"></script>
+  <script>
+    luxy.init();
+
+    emergence.init({
+      container: window,
+      reset: false,
+      handheld: true,
+      throttle: 250,
+      elemCushion: 0.64,
+      offsetTop: 0,
+      offsetRight: 0,
+      offsetBottom: 5,
+      offsetLeft: 0
+    });
+  </script>
+  <noscript>
+    Congrats Time Traveller, You are in the 90s. Now in order to access this site you either need to
+    update your browser or enable Javascript from settings. And please don't use Internet explorer :).
+  </noscript>
+</body>
+
+</html>

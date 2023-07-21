@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+        <div class="place">Delhi, IN</div>
+        <div id="date">WED | DEC 3 | 11: 15 AM</div>
+        <div class="temp">{%tempVal%}</div>
+        <div class="info">
+            <div class="min">Min {%tempMin%}</div>
+            <div class="max">Max {%tempMax%}</div>
+        </div>
+    </div>
+
+    <script>
+        const getCurrentDay = () => {
+            var weekday = new Array(7);
+            weekday[0] = "Sunday";
+            weekday[1] = "Monday";
+            weekday[2] = "Tuesday";
+            weekday[3] = "Wednesday";
+            weekday[4] = "Thursday";
+            weekday[5] = "Friday";
+            weekday[6] = "Saturday";
+
+            let d = new Date();
+            return (weekday[d.getDay()]);
+        }
+
+        const getCurrentTime = () => {
+            let d = new Date();
+            let hours = d.getHours();
+            let minutes = d.getMinutes();
+            let seconds = d.getSeconds();
+            let ampm = hours >= 12 ? 'PM' : 'AM';
+            return (`${hours}:${minutes}:${seconds} ${ampm}`);
+        }
+        document.getElementById('date').innerHTML = `${getCurrentDay()} | ${getCurrentTime()}`;
+    </script>
+</body>
+</html>

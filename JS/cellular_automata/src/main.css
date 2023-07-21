@@ -1,0 +1,13 @@
+body {
+    background: rgb(139, 23, 46);
+    margin: 0;
+}
+
+.heading {
+    color: rgb(89, 251, 92);
+    font-size: 3rem;
+    margin: 0 auto;
+    text-align: center;
+    padding: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,1 @@
+{"name":"Local: one","url":"c:\\Users\\dbaks\\OneDrive\\Desktop\\desktop\\Code_Vault Repo\\CP\\trash\\one.cpp","tests":[{"id":1633917668052,"input":"a b c e \ns f c s\na d e e","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\dbaks\\OneDrive\\Desktop\\desktop\\Code_Vault Repo\\CP\\trash\\one.cpp","group":"local","local":true}

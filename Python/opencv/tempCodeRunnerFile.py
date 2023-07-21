@@ -1,0 +1,1 @@
+cv.imshow('Person', img)

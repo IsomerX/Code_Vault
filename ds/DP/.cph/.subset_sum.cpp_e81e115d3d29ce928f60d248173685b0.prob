@@ -1,0 +1,1 @@
+{"name":"Local: subset_sum","url":"c:\\Users\\dbaks\\OneDrive\\Desktop\\code\\Code_Vault\\ds\\DP\\subset_sum.cpp","tests":[{"id":1656137343244,"input":"6 30\n3 34 4 12 5 2","output":"true"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\dbaks\\OneDrive\\Desktop\\code\\Code_Vault\\ds\\DP\\subset_sum.cpp","group":"local","local":true}

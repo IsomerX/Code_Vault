@@ -1,0 +1,909 @@
+hello
+
+
+6 5 0 0 0 3 2 4 7 
+4 0 0 0 0 7 0 0 0 
+9 0 7 2 5 0 0 0 3 
+2 0 0 3 0 0 0 8 1 
+0 0 1 7 0 6 4 0 9 
+7 0 3 8 9 0 5 2 0 
+0 6 0 0 0 9 3 0 0 
+3 7 4 0 0 0 9 0 0 
+1 0 9 0 0 0 0 0 4 
+ros and col: 
+row 0: 1 2 3 4 5 6 7 8 9 		
+row 1: 1 2 3 4 5 6 7 8 9 		
+row 2: 1 2 3 4 5 6 7 8 9 		
+row 3: 1 2 3 4 5 6 7 8 9 		
+row 4: 1 2 3 4 5 6 7 8 9 		
+row 5: 1 2 3 4 5 6 7 8 9 		
+row 6: 1 2 3 4 5 6 7 8 9 		
+row 7: 1 2 3 4 5 6 7 8 9 		
+row 8: 1 2 3 4 5 6 7 8 9 		
+
+col 0: 1 2 3 4 5 6 7 8 9 		
+col 1: 1 2 3 4 5 6 7 8 9 		
+col 2: 1 2 3 4 5 6 7 8 9 		
+col 3: 1 2 3 4 5 6 7 8 9 		
+col 4: 1 2 3 4 5 6 7 8 9 		
+col 5: 1 2 3 4 5 6 7 8 9 		
+col 6: 1 2 3 4 5 6 7 8 9 		
+col 7: 1 2 3 4 5 6 7 8 9 		
+col 8: 1 2 3 4 5 6 7 8 9 		
+
+0 0: 			0 1: 			0 2: 			0 3: 			0 4: 			0 5: 			0 6: 			0 7: 			0 8: 			
+1 0: 			1 1: 			1 2: 			1 3: 			1 4: 			1 5: 			1 6: 			1 7: 			1 8: 			
+2 0: 			2 1: 			2 2: 			2 3: 			2 4: 			2 5: 			2 6: 			2 7: 			2 8: 			
+3 0: 			3 1: 			3 2: 			3 3: 			3 4: 			3 5: 			3 6: 			3 7: 			3 8: 			
+4 0: 			4 1: 			4 2: 			4 3: 			4 4: 			4 5: 			4 6: 			4 7: 			4 8: 			
+5 0: 			5 1: 			5 2: 			5 3: 			5 4: 			5 5: 			5 6: 			5 7: 			5 8: 			
+6 0: 			6 1: 			6 2: 			6 3: 			6 4: 			6 5: 			6 6: 			6 7: 			6 8: 			
+7 0: 			7 1: 			7 2: 			7 3: 			7 4: 			7 5: 			7 6: 			7 7: 			7 8: 			
+8 0: 			8 1: 			8 2: 			8 3: 			8 4: 			8 5: 			8 6: 			8 7: 			8 8: 			
+
+still empty: 43
+sudoku not complete!
+0
+
+
+6 5 0 0 0 3 2 4 7 
+4 0 0 0 0 7 0 0 0 
+9 0 7 2 5 0 0 0 3 
+2 0 0 3 0 0 0 8 1 
+0 0 1 7 0 6 4 0 9 
+7 0 3 8 9 0 5 2 0 
+0 6 0 0 0 9 3 0 0 
+3 7 4 0 0 0 9 0 0 
+1 0 9 0 0 0 0 0 4 
+ros and col: 
+row 0: 1 2 3 4 5 6 7 8 9 		
+row 1: 1 2 3 4 5 6 7 8 9 		
+row 2: 1 2 3 4 5 6 7 8 9 		
+row 3: 1 2 3 4 5 6 7 8 9 		
+row 4: 1 2 3 4 5 6 7 8 9 		
+row 5: 1 2 3 4 5 6 7 8 9 		
+row 6: 1 2 3 4 5 6 7 8 9 		
+row 7: 1 2 3 4 5 6 7 8 9 		
+row 8: 1 2 3 4 5 6 7 8 9 		
+
+col 0: 1 2 3 4 5 6 7 8 9 		
+col 1: 1 2 3 4 5 6 7 8 9 		
+col 2: 1 2 3 4 5 6 7 8 9 		
+col 3: 1 2 3 4 5 6 7 8 9 		
+col 4: 1 2 3 4 5 6 7 8 9 		
+col 5: 1 2 3 4 5 6 7 8 9 		
+col 6: 1 2 3 4 5 6 7 8 9 		
+col 7: 1 2 3 4 5 6 7 8 9 		
+col 8: 1 2 3 4 5 6 7 8 9 		
+
+0 0: 			0 1: 			0 2: 			0 3: 			0 4: 			0 5: 			0 6: 			0 7: 			0 8: 			
+1 0: 			1 1: 			1 2: 			1 3: 			1 4: 			1 5: 			1 6: 			1 7: 			1 8: 			
+2 0: 			2 1: 			2 2: 			2 3: 			2 4: 			2 5: 			2 6: 			2 7: 			2 8: 			
+3 0: 			3 1: 			3 2: 			3 3: 			3 4: 			3 5: 			3 6: 			3 7: 			3 8: 			
+4 0: 			4 1: 			4 2: 			4 3: 			4 4: 			4 5: 			4 6: 			4 7: 			4 8: 			
+5 0: 			5 1: 			5 2: 			5 3: 			5 4: 			5 5: 			5 6: 			5 7: 			5 8: 			
+6 0: 			6 1: 			6 2: 			6 3: 			6 4: 			6 5: 			6 6: 			6 7: 			6 8: 			
+7 0: 			7 1: 			7 2: 			7 3: 			7 4: 			7 5: 			7 6: 			7 7: 			7 8: 			
+8 0: 			8 1: 			8 2: 			8 3: 			8 4: 			8 5: 			8 6: 			8 7: 			8 8: 			
+
+still empty: 43
+hello mate
+hello mate
+intersection at 0 2  of: 1 8 9 and 2 5 6 8 is 8 
+8 has been filled at: 0, 2by intersection
+intersection at 0 3  of: 1 9 and 1 4 5 6 9 is 1 9 
+intersection at 0 4  of: 1 9 and 1 2 3 4 6 7 8 is 1 
+1 has been filled at: 0, 4by intersection
+intersection at 1 1  of: 1 2 3 5 6 8 9 and 1 2 3 4 8 9 is 1 2 3 8 9 
+intersection at 1 2  of: 1 2 3 5 6 8 9 and 2 5 6 is 2 5 6 
+intersection at 1 3  of: 1 2 3 5 6 8 9 and 1 4 5 6 9 is 1 5 6 9 
+intersection at 1 4  of: 1 2 3 5 6 8 9 and 2 3 4 6 7 8 is 2 3 6 8 
+intersection at 1 6  of: 1 2 3 5 6 8 9 and 1 6 7 8 is 1 6 8 
+intersection at 1 7  of: 1 2 3 5 6 8 9 and 1 3 5 6 7 9 is 1 3 5 6 9 
+intersection at 1 8  of: 1 2 3 5 6 8 9 and 2 5 6 8 is 2 5 6 8 
+intersection at 2 1  of: 1 4 6 8 and 1 2 3 4 8 9 is 1 4 8 
+intersection at 2 5  of: 1 4 6 8 and 1 2 4 5 8 is 1 4 8 
+intersection at 2 6  of: 1 4 6 8 and 1 6 7 8 is 1 6 8 
+intersection at 2 7  of: 1 4 6 8 and 1 3 5 6 7 9 is 1 6 
+intersection at 3 1  of: 4 5 6 7 9 and 1 2 3 4 8 9 is 4 9 
+intersection at 3 2  of: 4 5 6 7 9 and 2 5 6 is 5 6 
+intersection at 3 4  of: 4 5 6 7 9 and 2 3 4 6 7 8 is 4 6 7 
+intersection at 3 5  of: 4 5 6 7 9 and 1 2 4 5 8 is 4 5 
+intersection at 3 6  of: 4 5 6 7 9 and 1 6 7 8 is 6 7 
+intersection at 4 0  of: 2 3 5 8 and 5 8 is 5 8 
+intersection at 4 1  of: 2 3 5 8 and 1 2 3 4 8 9 is 2 3 8 
+intersection at 4 4  of: 2 3 5 8 and 2 3 4 6 7 8 is 2 3 8 
+intersection at 4 7  of: 2 3 5 8 and 1 3 5 6 7 9 is 3 5 
+intersection at 5 1  of: 1 4 6 and 1 2 3 4 8 9 is 1 4 
+intersection at 5 5  of: 1 4 6 and 1 2 4 5 8 is 1 4 
+intersection at 5 8  of: 1 4 6 and 2 5 6 8 is 6 
+6 has been filled at: 5, 8by intersection
+intersection at 6 0  of: 1 2 4 5 7 8 and 5 8 is 5 8 
+intersection at 6 2  of: 1 2 4 5 7 8 and 2 5 6 is 2 5 
+intersection at 6 3  of: 1 2 4 5 7 8 and 1 4 5 6 9 is 1 4 5 
+intersection at 6 4  of: 1 2 4 5 7 8 and 2 3 4 6 7 8 is 2 4 7 8 
+intersection at 6 7  of: 1 2 4 5 7 8 and 1 3 5 6 7 9 is 1 5 7 
+intersection at 6 8  of: 1 2 4 5 7 8 and 2 5 8 is 2 5 8 
+intersection at 7 3  of: 1 2 5 6 8 and 1 4 5 6 9 is 1 5 6 
+intersection at 7 4  of: 1 2 5 6 8 and 2 3 4 6 7 8 is 2 6 8 
+intersection at 7 5  of: 1 2 5 6 8 and 1 2 4 5 8 is 1 2 5 8 
+intersection at 7 7  of: 1 2 5 6 8 and 1 3 5 6 7 9 is 1 5 6 
+intersection at 7 8  of: 1 2 5 6 8 and 2 5 8 is 2 5 8 
+intersection at 8 1  of: 2 3 5 6 7 8 and 1 2 3 4 8 9 is 2 3 8 
+intersection at 8 3  of: 2 3 5 6 7 8 and 1 4 5 6 9 is 5 6 
+intersection at 8 4  of: 2 3 5 6 7 8 and 2 3 4 6 7 8 is 2 3 6 7 8 
+intersection at 8 5  of: 2 3 5 6 7 8 and 1 2 4 5 8 is 2 5 8 
+intersection at 8 6  of: 2 3 5 6 7 8 and 1 6 7 8 is 6 7 8 
+intersection at 8 7  of: 2 3 5 6 7 8 and 1 3 5 6 7 9 is 3 5 6 7 
+
+
+6 5 8 0 1 3 2 4 7 
+4 0 0 0 0 7 0 0 0 
+9 0 7 2 5 0 0 0 3 
+2 0 0 3 0 0 0 8 1 
+0 0 1 7 0 6 4 0 9 
+7 0 3 8 9 0 5 2 6 
+0 6 0 0 0 9 3 0 0 
+3 7 4 0 0 0 9 0 0 
+1 0 9 0 0 0 0 0 4 
+ros and col: 
+row 0: 9 		
+row 1: 1 2 3 5 6 8 9 		
+row 2: 1 4 6 8 		
+row 3: 4 5 6 7 9 		
+row 4: 2 3 5 8 		
+row 5: 1 4 		
+row 6: 1 2 4 5 7 8 		
+row 7: 1 2 5 6 8 		
+row 8: 2 3 5 6 7 8 		
+
+col 0: 5 8 		
+col 1: 1 2 3 4 8 9 		
+col 2: 2 5 6 		
+col 3: 1 4 5 6 9 		
+col 4: 2 3 4 6 7 8 		
+col 5: 1 2 4 5 8 		
+col 6: 1 6 7 8 		
+col 7: 1 3 5 6 7 9 		
+col 8: 2 5 8 		
+
+0 0: 			0 1: 			0 2: 			0 3: 9 			0 4: 			0 5: 			0 6: 			0 7: 			0 8: 			
+1 0: 			1 1: 1 2 3 8 9 			1 2: 2 5 6 			1 3: 1 5 6 9 			1 4: 2 3 6 8 			1 5: 			1 6: 1 6 8 			1 7: 1 3 5 6 9 			1 8: 2 5 8 			
+2 0: 			2 1: 1 4 8 			2 2: 			2 3: 			2 4: 			2 5: 1 4 8 			2 6: 1 6 8 			2 7: 1 6 			2 8: 			
+3 0: 			3 1: 4 9 			3 2: 5 6 			3 3: 			3 4: 4 6 7 			3 5: 4 5 			3 6: 6 7 			3 7: 			3 8: 			
+4 0: 5 8 			4 1: 2 3 8 			4 2: 			4 3: 			4 4: 2 3 8 			4 5: 			4 6: 			4 7: 3 5 			4 8: 			
+5 0: 			5 1: 1 4 			5 2: 			5 3: 			5 4: 			5 5: 1 4 			5 6: 			5 7: 			5 8: 			
+6 0: 5 8 			6 1: 			6 2: 2 5 			6 3: 1 4 5 			6 4: 2 4 7 8 			6 5: 			6 6: 			6 7: 1 5 7 			6 8: 2 5 8 			
+7 0: 			7 1: 			7 2: 			7 3: 1 5 6 			7 4: 2 6 8 			7 5: 1 2 5 8 			7 6: 			7 7: 1 5 6 			7 8: 2 5 8 			
+8 0: 			8 1: 2 3 8 			8 2: 			8 3: 5 6 			8 4: 2 3 6 7 8 			8 5: 2 5 8 			8 6: 6 7 8 			8 7: 3 5 6 7 			8 8: 			
+
+9 has been filled at: 0, 3by rowinter
+9 has been filled at: 3, 1by rowinter
+4 has been filled at: 6, 3by colinter
+4 has been filled at: 3, 4by colinter
+9 has been filled at: 1, 7by colinter
+
+
+6 5 8 9 1 3 2 4 7 
+4 0 0 0 0 7 0 9 0 
+9 0 7 2 5 0 0 0 3 
+2 9 0 3 4 0 0 8 1 
+0 0 1 7 0 6 4 0 9 
+7 0 3 8 9 0 5 2 6 
+0 6 0 4 0 9 3 0 0 
+3 7 4 0 0 0 9 0 0 
+1 0 9 0 0 0 0 0 4 
+ros and col: 
+row 0: 		
+row 1: 1 2 3 5 6 8 		
+row 2: 1 4 6 8 		
+row 3: 5 6 7 		
+row 4: 2 3 5 8 		
+row 5: 1 4 		
+row 6: 1 2 5 7 8 		
+row 7: 1 2 5 6 8 		
+row 8: 2 3 5 6 7 8 		
+
+col 0: 5 8 		
+col 1: 1 2 3 4 8 		
+col 2: 2 5 6 		
+col 3: 1 5 6 		
+col 4: 2 3 6 7 8 		
+col 5: 1 2 4 5 8 		
+col 6: 1 6 7 8 		
+col 7: 1 3 5 6 7 		
+col 8: 2 5 8 		
+
+0 0: 			0 1: 			0 2: 			0 3: 			0 4: 			0 5: 			0 6: 			0 7: 			0 8: 			
+1 0: 			1 1: 			1 2: 2 5 6 			1 3: 1 5 6 			1 4: 2 3 6 8 			1 5: 			1 6: 1 6 8 			1 7: 1 3 5 6 			1 8: 2 5 8 			
+2 0: 			2 1: 1 4 8 			2 2: 			2 3: 			2 4: 			2 5: 1 4 8 			2 6: 1 6 8 			2 7: 1 6 			2 8: 			
+3 0: 			3 1: 			3 2: 5 6 			3 3: 			3 4: 6 7 			3 5: 5 			3 6: 6 7 			3 7: 			3 8: 			
+4 0: 5 8 			4 1: 2 3 8 			4 2: 			4 3: 			4 4: 2 3 8 			4 5: 			4 6: 			4 7: 3 5 			4 8: 			
+5 0: 			5 1: 1 4 			5 2: 			5 3: 			5 4: 			5 5: 1 4 			5 6: 			5 7: 			5 8: 			
+6 0: 5 8 			6 1: 			6 2: 2 5 			6 3: 1 5 			6 4: 2 7 8 			6 5: 			6 6: 			6 7: 1 5 7 			6 8: 2 5 8 			
+7 0: 			7 1: 			7 2: 			7 3: 1 5 6 			7 4: 2 6 8 			7 5: 1 2 5 8 			7 6: 			7 7: 1 5 6 			7 8: 2 5 8 			
+8 0: 			8 1: 2 3 8 			8 2: 			8 3: 5 6 			8 4: 2 3 6 7 8 			8 5: 2 5 8 			8 6: 6 7 8 			8 7: 3 5 6 7 			8 8: 			
+
+
+
+6 5 8 9 1 3 2 4 7 
+4 0 0 0 0 7 0 9 0 
+9 0 7 2 5 0 0 0 3 
+2 9 0 3 4 0 0 8 1 
+0 0 1 7 0 6 4 0 9 
+7 0 3 8 9 0 5 2 6 
+0 6 0 4 0 9 3 0 0 
+3 7 4 0 0 0 9 0 0 
+1 0 9 0 0 0 0 0 4 
+ros and col: 
+row 0: 		
+row 1: 1 2 3 5 6 8 		
+row 2: 1 4 6 8 		
+row 3: 5 6 7 		
+row 4: 2 3 5 8 		
+row 5: 1 4 		
+row 6: 1 2 5 7 8 		
+row 7: 1 2 5 6 8 		
+row 8: 2 3 5 6 7 8 		
+
+col 0: 5 8 		
+col 1: 1 2 3 4 8 		
+col 2: 2 5 6 		
+col 3: 1 5 6 		
+col 4: 2 3 6 7 8 		
+col 5: 1 2 4 5 8 		
+col 6: 1 6 7 8 		
+col 7: 1 3 5 6 7 		
+col 8: 2 5 8 		
+
+0 0: 			0 1: 			0 2: 			0 3: 			0 4: 			0 5: 			0 6: 			0 7: 			0 8: 			
+1 0: 			1 1: 			1 2: 2 5 6 			1 3: 1 5 6 			1 4: 2 3 6 8 			1 5: 			1 6: 1 6 8 			1 7: 1 3 5 6 			1 8: 2 5 8 			
+2 0: 			2 1: 1 4 8 			2 2: 			2 3: 			2 4: 			2 5: 1 4 8 			2 6: 1 6 8 			2 7: 1 6 			2 8: 			
+3 0: 			3 1: 			3 2: 5 6 			3 3: 			3 4: 6 7 			3 5: 5 			3 6: 6 7 			3 7: 			3 8: 			
+4 0: 5 8 			4 1: 2 3 8 			4 2: 			4 3: 			4 4: 2 3 8 			4 5: 			4 6: 			4 7: 3 5 			4 8: 			
+5 0: 			5 1: 1 4 			5 2: 			5 3: 			5 4: 			5 5: 1 4 			5 6: 			5 7: 			5 8: 			
+6 0: 5 8 			6 1: 			6 2: 2 5 			6 3: 1 5 			6 4: 2 7 8 			6 5: 			6 6: 			6 7: 1 5 7 			6 8: 2 5 8 			
+7 0: 			7 1: 			7 2: 			7 3: 1 5 6 			7 4: 2 6 8 			7 5: 1 2 5 8 			7 6: 			7 7: 1 5 6 			7 8: 2 5 8 			
+8 0: 			8 1: 2 3 8 			8 2: 			8 3: 5 6 			8 4: 2 3 6 7 8 			8 5: 2 5 8 			8 6: 6 7 8 			8 7: 3 5 6 7 			8 8: 			
+
+still empty: 35
+hello mate
+hello mate
+intersection at 1 1  of: 1 2 3 5 6 8 and 1 2 3 4 8 is 1 2 3 8 
+intersection at 1 2  of: 1 2 3 5 6 8 and 2 5 6 is 2 5 6 
+intersection at 1 3  of: 1 2 3 5 6 8 and 1 5 6 is 1 5 6 
+intersection at 1 4  of: 1 2 3 5 6 8 and 2 3 6 7 8 is 2 3 6 8 
+intersection at 1 6  of: 1 2 3 5 6 8 and 1 6 7 8 is 1 6 8 
+intersection at 1 8  of: 1 2 3 5 6 8 and 2 5 8 is 2 5 8 
+intersection at 2 1  of: 1 4 6 8 and 1 2 3 4 8 is 1 4 8 
+intersection at 2 5  of: 1 4 6 8 and 1 2 4 5 8 is 1 4 8 
+intersection at 2 6  of: 1 4 6 8 and 1 6 7 8 is 1 6 8 
+intersection at 2 7  of: 1 4 6 8 and 1 3 5 6 7 is 1 6 
+intersection at 3 2  of: 5 6 7 and 2 5 6 is 5 6 
+intersection at 3 5  of: 5 6 7 and 1 2 4 5 8 is 5 
+5 has been filled at: 3, 5by intersection
+intersection at 3 6  of: 6 7 and 1 6 7 8 is 6 7 
+intersection at 4 0  of: 2 3 5 8 and 5 8 is 5 8 
+intersection at 4 1  of: 2 3 5 8 and 1 2 3 4 8 is 2 3 8 
+intersection at 4 4  of: 2 3 5 8 and 2 3 6 7 8 is 2 3 8 
+intersection at 4 7  of: 2 3 5 8 and 1 3 5 6 7 is 3 5 
+intersection at 5 1  of: 1 4 and 1 2 3 4 8 is 1 4 
+intersection at 5 5  of: 1 4 and 1 2 4 8 is 1 4 
+intersection at 6 0  of: 1 2 5 7 8 and 5 8 is 5 8 
+intersection at 6 2  of: 1 2 5 7 8 and 2 5 6 is 2 5 
+intersection at 6 4  of: 1 2 5 7 8 and 2 3 6 7 8 is 2 7 8 
+intersection at 6 7  of: 1 2 5 7 8 and 1 3 5 6 7 is 1 5 7 
+intersection at 6 8  of: 1 2 5 7 8 and 2 5 8 is 2 5 8 
+intersection at 7 3  of: 1 2 5 6 8 and 1 5 6 is 1 5 6 
+intersection at 7 4  of: 1 2 5 6 8 and 2 3 6 7 8 is 2 6 8 
+intersection at 7 5  of: 1 2 5 6 8 and 1 2 4 8 is 1 2 8 
+intersection at 7 7  of: 1 2 5 6 8 and 1 3 5 6 7 is 1 5 6 
+intersection at 7 8  of: 1 2 5 6 8 and 2 5 8 is 2 5 8 
+intersection at 8 1  of: 2 3 5 6 7 8 and 1 2 3 4 8 is 2 3 8 
+intersection at 8 3  of: 2 3 5 6 7 8 and 1 5 6 is 5 6 
+intersection at 8 4  of: 2 3 5 6 7 8 and 2 3 6 7 8 is 2 3 6 7 8 
+intersection at 8 5  of: 2 3 5 6 7 8 and 1 2 4 8 is 2 8 
+intersection at 8 6  of: 2 3 5 6 7 8 and 1 6 7 8 is 6 7 8 
+intersection at 8 7  of: 2 3 5 6 7 8 and 1 3 5 6 7 is 3 5 6 7 
+
+
+6 5 8 9 1 3 2 4 7 
+4 0 0 0 0 7 0 9 0 
+9 0 7 2 5 0 0 0 3 
+2 9 0 3 4 5 0 8 1 
+0 0 1 7 0 6 4 0 9 
+7 0 3 8 9 0 5 2 6 
+0 6 0 4 0 9 3 0 0 
+3 7 4 0 0 0 9 0 0 
+1 0 9 0 0 0 0 0 4 
+ros and col: 
+row 0: 		
+row 1: 1 2 3 5 6 8 		
+row 2: 1 4 6 8 		
+row 3: 6 7 		
+row 4: 2 3 5 8 		
+row 5: 1 4 		
+row 6: 1 2 5 7 8 		
+row 7: 1 2 5 6 8 		
+row 8: 2 3 5 6 7 8 		
+
+col 0: 5 8 		
+col 1: 1 2 3 4 8 		
+col 2: 2 5 6 		
+col 3: 1 5 6 		
+col 4: 2 3 6 7 8 		
+col 5: 1 2 4 8 		
+col 6: 1 6 7 8 		
+col 7: 1 3 5 6 7 		
+col 8: 2 5 8 		
+
+0 0: 			0 1: 			0 2: 			0 3: 			0 4: 			0 5: 			0 6: 			0 7: 			0 8: 			
+1 0: 			1 1: 1 2 3 8 			1 2: 2 5 6 			1 3: 1 5 6 			1 4: 2 3 6 8 			1 5: 			1 6: 1 6 8 			1 7: 1 5 6 			1 8: 2 5 8 			
+2 0: 			2 1: 1 4 8 			2 2: 			2 3: 			2 4: 			2 5: 1 4 8 			2 6: 1 6 8 			2 7: 1 6 			2 8: 			
+3 0: 			3 1: 			3 2: 6 			3 3: 			3 4: 			3 5: 			3 6: 6 7 			3 7: 			3 8: 			
+4 0: 5 8 			4 1: 2 3 8 			4 2: 			4 3: 			4 4: 2 3 8 			4 5: 			4 6: 			4 7: 3 5 			4 8: 			
+5 0: 			5 1: 1 4 			5 2: 			5 3: 			5 4: 			5 5: 1 4 			5 6: 			5 7: 			5 8: 			
+6 0: 5 8 			6 1: 			6 2: 2 5 			6 3: 1 5 			6 4: 2 7 8 			6 5: 			6 6: 			6 7: 1 5 7 			6 8: 2 5 8 			
+7 0: 			7 1: 			7 2: 			7 3: 1 5 6 			7 4: 2 6 8 			7 5: 1 2 8 			7 6: 			7 7: 1 5 6 			7 8: 2 5 8 			
+8 0: 			8 1: 2 3 8 			8 2: 			8 3: 5 6 			8 4: 2 3 6 7 8 			8 5: 2 8 			8 6: 6 7 8 			8 7: 3 5 6 7 			8 8: 			
+
+7 has been filled at: 3, 6by rowinter
+1 has been filled at: 6, 7by rowinter
+7 has been filled at: 8, 7by colinter
+
+
+6 5 8 9 1 3 2 4 7 
+4 0 0 0 0 7 0 9 0 
+9 0 7 2 5 0 0 0 3 
+2 9 0 3 4 5 7 8 1 
+0 0 1 7 0 6 4 0 9 
+7 0 3 8 9 0 5 2 6 
+0 6 0 4 0 9 3 1 0 
+3 7 4 0 0 0 9 0 0 
+1 0 9 0 0 0 0 7 4 
+ros and col: 
+row 0: 		
+row 1: 1 2 3 5 6 8 		
+row 2: 1 4 6 8 		
+row 3: 6 		
+row 4: 2 3 5 8 		
+row 5: 1 4 		
+row 6: 2 5 7 8 		
+row 7: 1 2 5 6 8 		
+row 8: 2 3 5 6 8 		
+
+col 0: 5 8 		
+col 1: 1 2 3 4 8 		
+col 2: 2 5 6 		
+col 3: 1 5 6 		
+col 4: 2 3 6 7 8 		
+col 5: 1 2 4 8 		
+col 6: 1 6 8 		
+col 7: 3 5 6 		
+col 8: 2 5 8 		
+
+0 0: 			0 1: 			0 2: 			0 3: 			0 4: 			0 5: 			0 6: 			0 7: 			0 8: 			
+1 0: 			1 1: 1 2 3 8 			1 2: 2 5 6 			1 3: 1 5 6 			1 4: 2 3 6 8 			1 5: 			1 6: 1 6 8 			1 7: 5 6 			1 8: 2 5 8 			
+2 0: 			2 1: 1 4 8 			2 2: 			2 3: 			2 4: 			2 5: 1 4 8 			2 6: 1 6 8 			2 7: 6 			2 8: 			
+3 0: 			3 1: 			3 2: 6 			3 3: 			3 4: 			3 5: 			3 6: 6 			3 7: 			3 8: 			
+4 0: 5 8 			4 1: 2 3 8 			4 2: 			4 3: 			4 4: 2 3 8 			4 5: 			4 6: 			4 7: 3 5 			4 8: 			
+5 0: 			5 1: 1 4 			5 2: 			5 3: 			5 4: 			5 5: 1 4 			5 6: 			5 7: 			5 8: 			
+6 0: 5 8 			6 1: 			6 2: 2 5 			6 3: 5 			6 4: 2 7 8 			6 5: 			6 6: 			6 7: 5 			6 8: 2 5 8 			
+7 0: 			7 1: 			7 2: 			7 3: 1 5 6 			7 4: 2 6 8 			7 5: 1 2 8 			7 6: 			7 7: 5 6 			7 8: 2 5 8 			
+8 0: 			8 1: 2 3 8 			8 2: 			8 3: 5 6 			8 4: 2 3 6 8 			8 5: 2 8 			8 6: 6 8 			8 7: 3 5 6 			8 8: 			
+
+
+
+6 5 8 9 1 3 2 4 7 
+4 0 0 0 0 7 0 9 0 
+9 0 7 2 5 0 0 0 3 
+2 9 0 3 4 5 7 8 1 
+0 0 1 7 0 6 4 0 9 
+7 0 3 8 9 0 5 2 6 
+0 6 0 4 0 9 3 1 0 
+3 7 4 0 0 0 9 0 0 
+1 0 9 0 0 0 0 7 4 
+ros and col: 
+row 0: 		
+row 1: 1 2 3 5 6 8 		
+row 2: 1 4 6 8 		
+row 3: 6 		
+row 4: 2 3 5 8 		
+row 5: 1 4 		
+row 6: 2 5 7 8 		
+row 7: 1 2 5 6 8 		
+row 8: 2 3 5 6 8 		
+
+col 0: 5 8 		
+col 1: 1 2 3 4 8 		
+col 2: 2 5 6 		
+col 3: 1 5 6 		
+col 4: 2 3 6 7 8 		
+col 5: 1 2 4 8 		
+col 6: 1 6 8 		
+col 7: 3 5 6 		
+col 8: 2 5 8 		
+
+0 0: 			0 1: 			0 2: 			0 3: 			0 4: 			0 5: 			0 6: 			0 7: 			0 8: 			
+1 0: 			1 1: 1 2 3 8 			1 2: 2 5 6 			1 3: 1 5 6 			1 4: 2 3 6 8 			1 5: 			1 6: 1 6 8 			1 7: 5 6 			1 8: 2 5 8 			
+2 0: 			2 1: 1 4 8 			2 2: 			2 3: 			2 4: 			2 5: 1 4 8 			2 6: 1 6 8 			2 7: 6 			2 8: 			
+3 0: 			3 1: 			3 2: 6 			3 3: 			3 4: 			3 5: 			3 6: 6 			3 7: 			3 8: 			
+4 0: 5 8 			4 1: 2 3 8 			4 2: 			4 3: 			4 4: 2 3 8 			4 5: 			4 6: 			4 7: 3 5 			4 8: 			
+5 0: 			5 1: 1 4 			5 2: 			5 3: 			5 4: 			5 5: 1 4 			5 6: 			5 7: 			5 8: 			
+6 0: 5 8 			6 1: 			6 2: 2 5 			6 3: 5 			6 4: 2 7 8 			6 5: 			6 6: 			6 7: 5 			6 8: 2 5 8 			
+7 0: 			7 1: 			7 2: 			7 3: 1 5 6 			7 4: 2 6 8 			7 5: 1 2 8 			7 6: 			7 7: 5 6 			7 8: 2 5 8 			
+8 0: 			8 1: 2 3 8 			8 2: 			8 3: 5 6 			8 4: 2 3 6 8 			8 5: 2 8 			8 6: 6 8 			8 7: 3 5 6 			8 8: 			
+
+still empty: 31
+hello mate
+hello mate
+intersection at 1 1  of: 1 2 3 5 6 8 and 1 2 3 4 8 is 1 2 3 8 
+intersection at 1 2  of: 1 2 3 5 6 8 and 2 5 6 is 2 5 6 
+intersection at 1 3  of: 1 2 3 5 6 8 and 1 5 6 is 1 5 6 
+intersection at 1 4  of: 1 2 3 5 6 8 and 2 3 6 7 8 is 2 3 6 8 
+intersection at 1 6  of: 1 2 3 5 6 8 and 1 6 8 is 1 6 8 
+intersection at 1 8  of: 1 2 3 5 6 8 and 2 5 8 is 2 5 8 
+intersection at 2 1  of: 1 4 6 8 and 1 2 3 4 8 is 1 4 8 
+intersection at 2 5  of: 1 4 6 8 and 1 2 4 8 is 1 4 8 
+intersection at 2 6  of: 1 4 6 8 and 1 6 8 is 1 6 8 
+intersection at 2 7  of: 1 4 6 8 and 3 5 6 is 6 
+6 has been filled at: 2, 7by intersection
+intersection at 3 2  of: 6 and 2 5 6 is 6 
+6 has been filled at: 3, 2by intersection
+intersection at 4 0  of: 2 3 5 8 and 5 8 is 5 8 
+intersection at 4 1  of: 2 3 5 8 and 1 2 3 4 8 is 2 3 8 
+intersection at 4 4  of: 2 3 5 8 and 2 3 6 7 8 is 2 3 8 
+intersection at 4 7  of: 2 3 5 8 and 3 5 is 3 5 
+intersection at 5 1  of: 1 4 and 1 2 3 4 8 is 1 4 
+intersection at 5 5  of: 1 4 and 1 2 4 8 is 1 4 
+intersection at 6 0  of: 2 5 7 8 and 5 8 is 5 8 
+intersection at 6 2  of: 2 5 7 8 and 2 5 is 2 5 
+intersection at 6 4  of: 2 5 7 8 and 2 3 6 7 8 is 2 7 8 
+intersection at 6 8  of: 2 5 7 8 and 2 5 8 is 2 5 8 
+intersection at 7 3  of: 1 2 5 6 8 and 1 5 6 is 1 5 6 
+intersection at 7 4  of: 1 2 5 6 8 and 2 3 6 7 8 is 2 6 8 
+intersection at 7 5  of: 1 2 5 6 8 and 1 2 4 8 is 1 2 8 
+intersection at 7 7  of: 1 2 5 6 8 and 3 5 is 5 
+5 has been filled at: 7, 7by intersection
+intersection at 7 8  of: 1 2 6 8 and 2 5 8 is 2 8 
+intersection at 8 1  of: 2 3 5 6 8 and 1 2 3 4 8 is 2 3 8 
+intersection at 8 3  of: 2 3 5 6 8 and 1 5 6 is 5 6 
+intersection at 8 4  of: 2 3 5 6 8 and 2 3 6 7 8 is 2 3 6 8 
+intersection at 8 5  of: 2 3 5 6 8 and 1 2 4 8 is 2 8 
+intersection at 8 6  of: 2 3 5 6 8 and 1 6 8 is 6 8 
+
+
+6 5 8 9 1 3 2 4 7 
+4 0 0 0 0 7 0 9 0 
+9 0 7 2 5 0 0 6 3 
+2 9 6 3 4 5 7 8 1 
+0 0 1 7 0 6 4 0 9 
+7 0 3 8 9 0 5 2 6 
+0 6 0 4 0 9 3 1 0 
+3 7 4 0 0 0 9 5 0 
+1 0 9 0 0 0 0 7 4 
+ros and col: 
+row 0: 		
+row 1: 1 2 3 5 6 8 		
+row 2: 1 4 8 		
+row 3: 		
+row 4: 2 3 5 8 		
+row 5: 1 4 		
+row 6: 2 5 7 8 		
+row 7: 1 2 6 8 		
+row 8: 2 3 5 6 8 		
+
+col 0: 5 8 		
+col 1: 1 2 3 4 8 		
+col 2: 2 5 		
+col 3: 1 5 6 		
+col 4: 2 3 6 7 8 		
+col 5: 1 2 4 8 		
+col 6: 1 6 8 		
+col 7: 3 		
+col 8: 2 5 8 		
+
+0 0: 			0 1: 			0 2: 			0 3: 			0 4: 			0 5: 			0 6: 			0 7: 			0 8: 			
+1 0: 			1 1: 1 2 3 8 			1 2: 2 5 			1 3: 1 5 6 			1 4: 2 3 6 8 			1 5: 			1 6: 1 6 8 			1 7: 			1 8: 2 5 8 			
+2 0: 			2 1: 1 4 8 			2 2: 			2 3: 			2 4: 			2 5: 1 4 8 			2 6: 1 8 			2 7: 			2 8: 			
+3 0: 			3 1: 			3 2: 			3 3: 			3 4: 			3 5: 			3 6: 			3 7: 			3 8: 			
+4 0: 5 8 			4 1: 2 3 8 			4 2: 			4 3: 			4 4: 2 3 8 			4 5: 			4 6: 			4 7: 3 			4 8: 			
+5 0: 			5 1: 1 4 			5 2: 			5 3: 			5 4: 			5 5: 1 4 			5 6: 			5 7: 			5 8: 			
+6 0: 5 8 			6 1: 			6 2: 2 5 			6 3: 5 			6 4: 2 7 8 			6 5: 			6 6: 			6 7: 			6 8: 2 5 8 			
+7 0: 			7 1: 			7 2: 			7 3: 1 6 			7 4: 2 6 8 			7 5: 1 2 8 			7 6: 			7 7: 			7 8: 2 8 			
+8 0: 			8 1: 2 3 8 			8 2: 			8 3: 5 6 			8 4: 2 3 6 8 			8 5: 2 8 			8 6: 6 8 			8 7: 			8 8: 			
+
+5 has been filled at: 4, 0by rowinter
+7 has been filled at: 6, 4by rowinter
+5 has been filled at: 8, 3by rowinter
+8 has been filled at: 6, 0by colinter
+3 has been filled at: 4, 7by colinter
+
+
+6 5 8 9 1 3 2 4 7 
+4 0 0 0 0 7 0 9 0 
+9 0 7 2 5 0 0 6 3 
+2 9 6 3 4 5 7 8 1 
+5 0 1 7 0 6 4 3 9 
+7 0 3 8 9 0 5 2 6 
+8 6 0 4 7 9 3 1 0 
+3 7 4 0 0 0 9 5 0 
+1 0 9 5 0 0 0 7 4 
+ros and col: 
+row 0: 		
+row 1: 1 2 3 5 6 8 		
+row 2: 1 4 8 		
+row 3: 		
+row 4: 2 8 		
+row 5: 1 4 		
+row 6: 2 5 		
+row 7: 1 2 6 8 		
+row 8: 2 3 6 8 		
+
+col 0: 		
+col 1: 1 2 3 4 8 		
+col 2: 2 5 		
+col 3: 1 6 		
+col 4: 2 3 6 8 		
+col 5: 1 2 4 8 		
+col 6: 1 6 8 		
+col 7: 		
+col 8: 2 5 8 		
+
+0 0: 			0 1: 			0 2: 			0 3: 			0 4: 			0 5: 			0 6: 			0 7: 			0 8: 			
+1 0: 			1 1: 1 2 3 8 			1 2: 2 5 			1 3: 1 6 			1 4: 2 3 6 8 			1 5: 			1 6: 1 6 8 			1 7: 			1 8: 2 5 8 			
+2 0: 			2 1: 1 4 8 			2 2: 			2 3: 			2 4: 			2 5: 1 4 8 			2 6: 1 8 			2 7: 			2 8: 			
+3 0: 			3 1: 			3 2: 			3 3: 			3 4: 			3 5: 			3 6: 			3 7: 			3 8: 			
+4 0: 			4 1: 2 8 			4 2: 			4 3: 			4 4: 			4 5: 			4 6: 			4 7: 			4 8: 			
+5 0: 			5 1: 1 4 			5 2: 			5 3: 			5 4: 			5 5: 1 4 			5 6: 			5 7: 			5 8: 			
+6 0: 			6 1: 			6 2: 2 5 			6 3: 			6 4: 2 			6 5: 			6 6: 			6 7: 			6 8: 2 5 			
+7 0: 			7 1: 			7 2: 			7 3: 1 6 			7 4: 2 6 8 			7 5: 1 2 8 			7 6: 			7 7: 			7 8: 2 8 			
+8 0: 			8 1: 2 3 8 			8 2: 			8 3: 6 			8 4: 2 3 6 8 			8 5: 2 8 			8 6: 6 8 			8 7: 			8 8: 			
+
+
+
+6 5 8 9 1 3 2 4 7 
+4 0 0 0 0 7 0 9 0 
+9 0 7 2 5 0 0 6 3 
+2 9 6 3 4 5 7 8 1 
+5 0 1 7 0 6 4 3 9 
+7 0 3 8 9 0 5 2 6 
+8 6 0 4 7 9 3 1 0 
+3 7 4 0 0 0 9 5 0 
+1 0 9 5 0 0 0 7 4 
+ros and col: 
+row 0: 		
+row 1: 1 2 3 5 6 8 		
+row 2: 1 4 8 		
+row 3: 		
+row 4: 2 8 		
+row 5: 1 4 		
+row 6: 2 5 		
+row 7: 1 2 6 8 		
+row 8: 2 3 6 8 		
+
+col 0: 		
+col 1: 1 2 3 4 8 		
+col 2: 2 5 		
+col 3: 1 6 		
+col 4: 2 3 6 8 		
+col 5: 1 2 4 8 		
+col 6: 1 6 8 		
+col 7: 		
+col 8: 2 5 8 		
+
+0 0: 			0 1: 			0 2: 			0 3: 			0 4: 			0 5: 			0 6: 			0 7: 			0 8: 			
+1 0: 			1 1: 1 2 3 8 			1 2: 2 5 			1 3: 1 6 			1 4: 2 3 6 8 			1 5: 			1 6: 1 6 8 			1 7: 			1 8: 2 5 8 			
+2 0: 			2 1: 1 4 8 			2 2: 			2 3: 			2 4: 			2 5: 1 4 8 			2 6: 1 8 			2 7: 			2 8: 			
+3 0: 			3 1: 			3 2: 			3 3: 			3 4: 			3 5: 			3 6: 			3 7: 			3 8: 			
+4 0: 			4 1: 2 8 			4 2: 			4 3: 			4 4: 			4 5: 			4 6: 			4 7: 			4 8: 			
+5 0: 			5 1: 1 4 			5 2: 			5 3: 			5 4: 			5 5: 1 4 			5 6: 			5 7: 			5 8: 			
+6 0: 			6 1: 			6 2: 2 5 			6 3: 			6 4: 2 			6 5: 			6 6: 			6 7: 			6 8: 2 5 			
+7 0: 			7 1: 			7 2: 			7 3: 1 6 			7 4: 2 6 8 			7 5: 1 2 8 			7 6: 			7 7: 			7 8: 2 8 			
+8 0: 			8 1: 2 3 8 			8 2: 			8 3: 6 			8 4: 2 3 6 8 			8 5: 2 8 			8 6: 6 8 			8 7: 			8 8: 			
+
+still empty: 23
+hello mate
+hello mate
+intersection at 1 1  of: 1 2 3 5 6 8 and 1 2 3 4 8 is 1 2 3 8 
+intersection at 1 2  of: 1 2 3 5 6 8 and 2 5 is 2 5 
+intersection at 1 3  of: 1 2 3 5 6 8 and 1 6 is 1 6 
+intersection at 1 4  of: 1 2 3 5 6 8 and 2 3 6 8 is 2 3 6 8 
+intersection at 1 6  of: 1 2 3 5 6 8 and 1 6 8 is 1 6 8 
+intersection at 1 8  of: 1 2 3 5 6 8 and 2 5 8 is 2 5 8 
+intersection at 2 1  of: 1 4 8 and 1 2 3 4 8 is 1 4 8 
+intersection at 2 5  of: 1 4 8 and 1 2 4 8 is 1 4 8 
+intersection at 2 6  of: 1 4 8 and 1 6 8 is 1 8 
+intersection at 4 1  of: 2 8 and 1 2 3 4 8 is 2 8 
+intersection at 4 4  of: 2 8 and 2 3 6 8 is 2 8 
+intersection at 5 1  of: 1 4 and 1 2 3 4 8 is 1 4 
+intersection at 5 5  of: 1 4 and 1 2 4 8 is 1 4 
+intersection at 6 2  of: 2 5 and 2 5 is 2 5 
+intersection at 6 8  of: 2 5 and 2 5 8 is 2 5 
+intersection at 7 3  of: 1 2 6 8 and 1 6 is 1 6 
+intersection at 7 4  of: 1 2 6 8 and 2 3 6 8 is 2 6 8 
+intersection at 7 5  of: 1 2 6 8 and 1 2 4 8 is 1 2 8 
+intersection at 7 8  of: 1 2 6 8 and 2 5 8 is 2 8 
+intersection at 8 1  of: 2 3 6 8 and 1 2 3 4 8 is 2 3 8 
+intersection at 8 4  of: 2 3 6 8 and 2 3 6 8 is 2 3 6 8 
+intersection at 8 5  of: 2 3 6 8 and 1 2 4 8 is 2 8 
+intersection at 8 6  of: 2 3 6 8 and 1 6 8 is 6 8 
+
+
+6 5 8 9 1 3 2 4 7 
+4 0 0 0 0 7 0 9 0 
+9 0 7 2 5 0 0 6 3 
+2 9 6 3 4 5 7 8 1 
+5 0 1 7 0 6 4 3 9 
+7 0 3 8 9 0 5 2 6 
+8 6 0 4 7 9 3 1 0 
+3 7 4 0 0 0 9 5 0 
+1 0 9 5 0 0 0 7 4 
+ros and col: 
+row 0: 		
+row 1: 1 2 3 5 6 8 		
+row 2: 1 4 8 		
+row 3: 		
+row 4: 2 8 		
+row 5: 1 4 		
+row 6: 2 5 		
+row 7: 1 2 6 8 		
+row 8: 2 3 6 8 		
+
+col 0: 		
+col 1: 1 2 3 4 8 		
+col 2: 2 5 		
+col 3: 1 6 		
+col 4: 2 3 6 8 		
+col 5: 1 2 4 8 		
+col 6: 1 6 8 		
+col 7: 		
+col 8: 2 5 8 		
+
+0 0: 			0 1: 			0 2: 			0 3: 			0 4: 			0 5: 			0 6: 			0 7: 			0 8: 			
+1 0: 			1 1: 1 2 3 8 			1 2: 2 5 			1 3: 1 6 			1 4: 2 3 6 8 			1 5: 			1 6: 1 6 8 			1 7: 			1 8: 2 5 8 			
+2 0: 			2 1: 1 4 8 			2 2: 			2 3: 			2 4: 			2 5: 1 4 8 			2 6: 1 8 			2 7: 			2 8: 			
+3 0: 			3 1: 			3 2: 			3 3: 			3 4: 			3 5: 			3 6: 			3 7: 			3 8: 			
+4 0: 			4 1: 2 8 			4 2: 			4 3: 			4 4: 2 8 			4 5: 			4 6: 			4 7: 			4 8: 			
+5 0: 			5 1: 1 4 			5 2: 			5 3: 			5 4: 			5 5: 1 4 			5 6: 			5 7: 			5 8: 			
+6 0: 			6 1: 			6 2: 2 5 			6 3: 			6 4: 2 			6 5: 			6 6: 			6 7: 			6 8: 2 5 			
+7 0: 			7 1: 			7 2: 			7 3: 1 6 			7 4: 2 6 8 			7 5: 1 2 8 			7 6: 			7 7: 			7 8: 2 8 			
+8 0: 			8 1: 2 3 8 			8 2: 			8 3: 6 			8 4: 2 3 6 8 			8 5: 2 8 			8 6: 6 8 			8 7: 			8 8: 			
+
+
+
+6 5 8 9 1 3 2 4 7 
+4 0 0 0 0 7 0 9 0 
+9 0 7 2 5 0 0 6 3 
+2 9 6 3 4 5 7 8 1 
+5 0 1 7 0 6 4 3 9 
+7 0 3 8 9 0 5 2 6 
+8 6 0 4 7 9 3 1 0 
+3 7 4 0 0 0 9 5 0 
+1 0 9 5 0 0 0 7 4 
+ros and col: 
+row 0: 		
+row 1: 1 2 3 5 6 8 		
+row 2: 1 4 8 		
+row 3: 		
+row 4: 2 8 		
+row 5: 1 4 		
+row 6: 2 5 		
+row 7: 1 2 6 8 		
+row 8: 2 3 6 8 		
+
+col 0: 		
+col 1: 1 2 3 4 8 		
+col 2: 2 5 		
+col 3: 1 6 		
+col 4: 2 3 6 8 		
+col 5: 1 2 4 8 		
+col 6: 1 6 8 		
+col 7: 		
+col 8: 2 5 8 		
+
+0 0: 			0 1: 			0 2: 			0 3: 			0 4: 			0 5: 			0 6: 			0 7: 			0 8: 			
+1 0: 			1 1: 1 2 3 8 			1 2: 2 5 			1 3: 1 6 			1 4: 2 3 6 8 			1 5: 			1 6: 1 6 8 			1 7: 			1 8: 2 5 8 			
+2 0: 			2 1: 1 4 8 			2 2: 			2 3: 			2 4: 			2 5: 1 4 8 			2 6: 1 8 			2 7: 			2 8: 			
+3 0: 			3 1: 			3 2: 			3 3: 			3 4: 			3 5: 			3 6: 			3 7: 			3 8: 			
+4 0: 			4 1: 2 8 			4 2: 			4 3: 			4 4: 2 8 			4 5: 			4 6: 			4 7: 			4 8: 			
+5 0: 			5 1: 1 4 			5 2: 			5 3: 			5 4: 			5 5: 1 4 			5 6: 			5 7: 			5 8: 			
+6 0: 			6 1: 			6 2: 2 5 			6 3: 			6 4: 2 			6 5: 			6 6: 			6 7: 			6 8: 2 5 			
+7 0: 			7 1: 			7 2: 			7 3: 1 6 			7 4: 2 6 8 			7 5: 1 2 8 			7 6: 			7 7: 			7 8: 2 8 			
+8 0: 			8 1: 2 3 8 			8 2: 			8 3: 6 			8 4: 2 3 6 8 			8 5: 2 8 			8 6: 6 8 			8 7: 			8 8: 			
+
+
+
+6 5 8 9 1 3 2 4 7 
+4 0 0 0 0 7 0 9 0 
+9 0 7 2 5 0 0 6 3 
+2 9 6 3 4 5 7 8 1 
+5 0 1 7 0 6 4 3 9 
+7 0 3 8 9 0 5 2 6 
+8 6 0 4 7 9 3 1 0 
+3 7 4 0 0 0 9 5 0 
+1 0 9 5 0 0 0 7 4 
+ros and col: 
+row 0: 		
+row 1: 1 2 3 5 6 8 		
+row 2: 1 4 8 		
+row 3: 		
+row 4: 2 8 		
+row 5: 1 4 		
+row 6: 2 5 		
+row 7: 1 2 6 8 		
+row 8: 2 3 6 8 		
+
+col 0: 		
+col 1: 1 2 3 4 8 		
+col 2: 2 5 		
+col 3: 1 6 		
+col 4: 2 3 6 8 		
+col 5: 1 2 4 8 		
+col 6: 1 6 8 		
+col 7: 		
+col 8: 2 5 8 		
+
+0 0: 			0 1: 			0 2: 			0 3: 			0 4: 			0 5: 			0 6: 			0 7: 			0 8: 			
+1 0: 			1 1: 1 2 3 8 			1 2: 2 5 			1 3: 1 6 			1 4: 2 3 6 8 			1 5: 			1 6: 1 6 8 			1 7: 			1 8: 2 5 8 			
+2 0: 			2 1: 1 4 8 			2 2: 			2 3: 			2 4: 			2 5: 1 4 8 			2 6: 1 8 			2 7: 			2 8: 			
+3 0: 			3 1: 			3 2: 			3 3: 			3 4: 			3 5: 			3 6: 			3 7: 			3 8: 			
+4 0: 			4 1: 2 8 			4 2: 			4 3: 			4 4: 2 8 			4 5: 			4 6: 			4 7: 			4 8: 			
+5 0: 			5 1: 1 4 			5 2: 			5 3: 			5 4: 			5 5: 1 4 			5 6: 			5 7: 			5 8: 			
+6 0: 			6 1: 			6 2: 2 5 			6 3: 			6 4: 2 			6 5: 			6 6: 			6 7: 			6 8: 2 5 			
+7 0: 			7 1: 			7 2: 			7 3: 1 6 			7 4: 2 6 8 			7 5: 1 2 8 			7 6: 			7 7: 			7 8: 2 8 			
+8 0: 			8 1: 2 3 8 			8 2: 			8 3: 6 			8 4: 2 3 6 8 			8 5: 2 8 			8 6: 6 8 			8 7: 			8 8: 			
+
+still empty: 23
+hello mate
+hello mate
+intersection at 1 1  of: 1 2 3 5 6 8 and 1 2 3 4 8 is 1 2 3 8 
+intersection at 1 2  of: 1 2 3 5 6 8 and 2 5 is 2 5 
+intersection at 1 3  of: 1 2 3 5 6 8 and 1 6 is 1 6 
+intersection at 1 4  of: 1 2 3 5 6 8 and 2 3 6 8 is 2 3 6 8 
+intersection at 1 6  of: 1 2 3 5 6 8 and 1 6 8 is 1 6 8 
+intersection at 1 8  of: 1 2 3 5 6 8 and 2 5 8 is 2 5 8 
+intersection at 2 1  of: 1 4 8 and 1 2 3 4 8 is 1 4 8 
+intersection at 2 5  of: 1 4 8 and 1 2 4 8 is 1 4 8 
+intersection at 2 6  of: 1 4 8 and 1 6 8 is 1 8 
+intersection at 4 1  of: 2 8 and 1 2 3 4 8 is 2 8 
+intersection at 4 4  of: 2 8 and 2 3 6 8 is 2 8 
+intersection at 5 1  of: 1 4 and 1 2 3 4 8 is 1 4 
+intersection at 5 5  of: 1 4 and 1 2 4 8 is 1 4 
+intersection at 6 2  of: 2 5 and 2 5 is 2 5 
+intersection at 6 8  of: 2 5 and 2 5 8 is 2 5 
+intersection at 7 3  of: 1 2 6 8 and 1 6 is 1 6 
+intersection at 7 4  of: 1 2 6 8 and 2 3 6 8 is 2 6 8 
+intersection at 7 5  of: 1 2 6 8 and 1 2 4 8 is 1 2 8 
+intersection at 7 8  of: 1 2 6 8 and 2 5 8 is 2 8 
+intersection at 8 1  of: 2 3 6 8 and 1 2 3 4 8 is 2 3 8 
+intersection at 8 4  of: 2 3 6 8 and 2 3 6 8 is 2 3 6 8 
+intersection at 8 5  of: 2 3 6 8 and 1 2 4 8 is 2 8 
+intersection at 8 6  of: 2 3 6 8 and 1 6 8 is 6 8 
+
+
+6 5 8 9 1 3 2 4 7 
+4 0 0 0 0 7 0 9 0 
+9 0 7 2 5 0 0 6 3 
+2 9 6 3 4 5 7 8 1 
+5 0 1 7 0 6 4 3 9 
+7 0 3 8 9 0 5 2 6 
+8 6 0 4 7 9 3 1 0 
+3 7 4 0 0 0 9 5 0 
+1 0 9 5 0 0 0 7 4 
+ros and col: 
+row 0: 		
+row 1: 1 2 3 5 6 8 		
+row 2: 1 4 8 		
+row 3: 		
+row 4: 2 8 		
+row 5: 1 4 		
+row 6: 2 5 		
+row 7: 1 2 6 8 		
+row 8: 2 3 6 8 		
+
+col 0: 		
+col 1: 1 2 3 4 8 		
+col 2: 2 5 		
+col 3: 1 6 		
+col 4: 2 3 6 8 		
+col 5: 1 2 4 8 		
+col 6: 1 6 8 		
+col 7: 		
+col 8: 2 5 8 		
+
+0 0: 			0 1: 			0 2: 			0 3: 			0 4: 			0 5: 			0 6: 			0 7: 			0 8: 			
+1 0: 			1 1: 1 2 3 8 			1 2: 2 5 			1 3: 1 6 			1 4: 2 3 6 8 			1 5: 			1 6: 1 6 8 			1 7: 			1 8: 2 5 8 			
+2 0: 			2 1: 1 4 8 			2 2: 			2 3: 			2 4: 			2 5: 1 4 8 			2 6: 1 8 			2 7: 			2 8: 			
+3 0: 			3 1: 			3 2: 			3 3: 			3 4: 			3 5: 			3 6: 			3 7: 			3 8: 			
+4 0: 			4 1: 2 8 			4 2: 			4 3: 			4 4: 2 8 			4 5: 			4 6: 			4 7: 			4 8: 			
+5 0: 			5 1: 1 4 			5 2: 			5 3: 			5 4: 			5 5: 1 4 			5 6: 			5 7: 			5 8: 			
+6 0: 			6 1: 			6 2: 2 5 			6 3: 			6 4: 2 			6 5: 			6 6: 			6 7: 			6 8: 2 5 			
+7 0: 			7 1: 			7 2: 			7 3: 1 6 			7 4: 2 6 8 			7 5: 1 2 8 			7 6: 			7 7: 			7 8: 2 8 			
+8 0: 			8 1: 2 3 8 			8 2: 			8 3: 6 			8 4: 2 3 6 8 			8 5: 2 8 			8 6: 6 8 			8 7: 			8 8: 			
+
+
+
+6 5 8 9 1 3 2 4 7 
+4 0 0 0 0 7 0 9 0 
+9 0 7 2 5 0 0 6 3 
+2 9 6 3 4 5 7 8 1 
+5 0 1 7 0 6 4 3 9 
+7 0 3 8 9 0 5 2 6 
+8 6 0 4 7 9 3 1 0 
+3 7 4 0 0 0 9 5 0 
+1 0 9 5 0 0 0 7 4 
+ros and col: 
+row 0: 		
+row 1: 1 2 3 5 6 8 		
+row 2: 1 4 8 		
+row 3: 		
+row 4: 2 8 		
+row 5: 1 4 		
+row 6: 2 5 		
+row 7: 1 2 6 8 		
+row 8: 2 3 6 8 		
+
+col 0: 		
+col 1: 1 2 3 4 8 		
+col 2: 2 5 		
+col 3: 1 6 		
+col 4: 2 3 6 8 		
+col 5: 1 2 4 8 		
+col 6: 1 6 8 		
+col 7: 		
+col 8: 2 5 8 		
+
+0 0: 			0 1: 			0 2: 			0 3: 			0 4: 			0 5: 			0 6: 			0 7: 			0 8: 			
+1 0: 			1 1: 1 2 3 8 			1 2: 2 5 			1 3: 1 6 			1 4: 2 3 6 8 			1 5: 			1 6: 1 6 8 			1 7: 			1 8: 2 5 8 			
+2 0: 			2 1: 1 4 8 			2 2: 			2 3: 			2 4: 			2 5: 1 4 8 			2 6: 1 8 			2 7: 			2 8: 			
+3 0: 			3 1: 			3 2: 			3 3: 			3 4: 			3 5: 			3 6: 			3 7: 			3 8: 			
+4 0: 			4 1: 2 8 			4 2: 			4 3: 			4 4: 2 8 			4 5: 			4 6: 			4 7: 			4 8: 			
+5 0: 			5 1: 1 4 			5 2: 			5 3: 			5 4: 			5 5: 1 4 			5 6: 			5 7: 			5 8: 			
+6 0: 			6 1: 			6 2: 2 5 			6 3: 			6 4: 2 			6 5: 			6 6: 			6 7: 			6 8: 2 5 			
+7 0: 			7 1: 			7 2: 			7 3: 1 6 			7 4: 2 6 8 			7 5: 1 2 8 			7 6: 			7 7: 			7 8: 2 8 			
+8 0: 			8 1: 2 3 8 			8 2: 			8 3: 6 			8 4: 2 3 6 8 			8 5: 2 8 			8 6: 6 8 			8 7: 			8 8: 			
+
+
+
+6 5 8 9 1 3 2 4 7 
+4 0 0 0 0 7 0 9 0 
+9 0 7 2 5 0 0 6 3 
+2 9 6 3 4 5 7 8 1 
+5 0 1 7 0 6 4 3 9 
+7 0 3 8 9 0 5 2 6 
+8 6 0 4 7 9 3 1 0 
+3 7 4 0 0 0 9 5 0 
+1 0 9 5 0 0 0 7 4 
+ros and col: 
+row 0: 		
+row 1: 1 2 3 5 6 8 		
+row 2: 1 4 8 		
+row 3: 		
+row 4: 2 8 		
+row 5: 1 4 		
+row 6: 2 5 		
+row 7: 1 2 6 8 		
+row 8: 2 3 6 8 		
+
+col 0: 		
+col 1: 1 2 3 4 8 		
+col 2: 2 5 		
+col 3: 1 6 		
+col 4: 2 3 6 8 		
+col 5: 1 2 4 8 		
+col 6: 1 6 8 		
+col 7: 		
+col 8: 2 5 8 		
+
+0 0: 			0 1: 			0 2: 			0 3: 			0 4: 			0 5: 			0 6: 			0 7: 			0 8: 			
+1 0: 			1 1: 1 2 3 8 			1 2: 2 5 			1 3: 1 6 			1 4: 2 3 6 8 			1 5: 			1 6: 1 6 8 			1 7: 			1 8: 2 5 8 			
+2 0: 			2 1: 1 4 8 			2 2: 			2 3: 			2 4: 			2 5: 1 4 8 			2 6: 1 8 			2 7: 			2 8: 			
+3 0: 			3 1: 			3 2: 			3 3: 			3 4: 			3 5: 			3 6: 			3 7: 			3 8: 			
+4 0: 			4 1: 2 8 			4 2: 			4 3: 			4 4: 2 8 			4 5: 			4 6: 			4 7: 			4 8: 			
+5 0: 			5 1: 1 4 			5 2: 			5 3: 			5 4: 			5 5: 1 4 			5 6: 			5 7: 			5 8: 			
+6 0: 			6 1: 			6 2: 2 5 			6 3: 			6 4: 2 			6 5: 			6 6: 			6 7: 			6 8: 2 5 			
+7 0: 			7 1: 			7 2: 			7 3: 1 6 			7 4: 2 6 8 			7 5: 1 2 8 			7 6: 			7 7: 			7 8: 2 8 			
+8 0: 			8 1: 2 3 8 			8 2: 			8 3: 6 			8 4: 2 3 6 8 			8 5: 2 8 			8 6: 6 8 			8 7: 			8 8: 			
+
+still empty: 23

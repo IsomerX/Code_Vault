@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+}
+
+body, html{
+    height: 200vh;
+    /* overflow-x: hidden; */
+}
+
+.spacing-500{
+    height: 500px;
+}
+
+#parallax-container{
+    height: 120vh;
+    width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.wrapper{
+    width: 82%;
+    position:absolute;
+    right: 0;
+    display: flex;
+    height: 100%;
+}
+
+.slider2{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-layer{
+    background-color: #fff;
+    font-family: poppins;
+}
+
+.text-layer ul {
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.text-layer ul li {
+    list-style: none;
+    font-size: 1.5rem;
+    color: #313033;
+    padding: 2rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.text-layer ul li:last-child{
+    border-bottom: none;
+}
+
+.slider1{
+    width: 30%;
+    position:relative;
+}
+
+.number-layer{
+    background-color: red;
+    width: 100%;
+    aspect-ratio: 1;
+    overflow: hidden;
+    position: absolute;
+}
+
+.number-layer ul {
+    padding: 0;
+}
+
+.number-layer ul li{
+    list-style: none;
+    width: 100%;
+    aspect-ratio: 1;
+    font-size: 12rem;
+    font-family: poppins;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .number-layer ul li:not(.active){
+    display: none;
+} */
