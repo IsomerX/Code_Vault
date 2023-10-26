@@ -2,6 +2,11 @@
     "files.associations": {
         "unordered_map": "cpp",
         "algorithm": "cpp",
-        "random": "cpp"
+        "random": "cpp",
+        "vector": "cpp",
+        "chrono": "cpp",
+        "span": "cpp",
+        "utility": "cpp",
+        "ostream": "cpp"
     }
 }

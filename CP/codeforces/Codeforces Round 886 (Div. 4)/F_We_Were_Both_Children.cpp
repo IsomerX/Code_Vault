@@ -118,30 +118,36 @@ void solve()
 {
     ll n;
     cin >> n;
-    vector<ll> a(n);
-    for (int i = 0; i < n; i++)
-        cin >> a[i];
+    vector<ll> a;
     unordered_map<ll, ll> m;
+    for (int i = 0; i < n; i++)
+    {
+        int temp;
+        cin >> temp;
+        if (temp > n)
+            continue;
+        if (m[temp] == 0)
+            a.push_back(temp);
+        m[temp]++;
+    }
 
     vector<ll> dp(n + 1, 0);
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < a.size(); i++)
     {
-        if (a[i] <= n)
+        for (int j = 0; j <= n; j += a[i])
         {
-            m[a[i]] = m[a[i]] + 1;
+            dp[j] += m[a[i]];
         }
     }
-    for (int i = 1; i <= n; i++)
+    ll maxs = 0;
+
+    forn(i, dp.size())
     {
-        if (m.find(i) != m.end())
-        {
-            for (int j = i; j <= n; j += i)
-            {
-                dp[j] += m[i];
-            }
-        }
+        if (i == 0)
+            continue;
+        maxs = max(maxs, dp[i]);
     }
-    cout << *max_element(dp.begin(), dp.end()) << endl;
+    cout << maxs << ln;
 }
 int main()
 {

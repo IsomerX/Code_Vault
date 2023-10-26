@@ -1,9 +1,8 @@
-fn add(x:i32, y:i32) -> i32 {
-    println!("😃");
-    return x + y;
-}
-
-fn main()   {
-    println!("Hello, world! {}", add(1, 2));
-    print!("Hello, world!");
+fn main() {
+    for i in 0..10 {
+        for _j in 0..i {
+            print!("*");
+        }
+        println!("")
+    }
 }
